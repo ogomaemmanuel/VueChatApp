@@ -8,13 +8,14 @@
   },
   "devDependencies": {
     "aspnet-webpack": "^2.0.1",
+    "bootstrap-vue": "^2.0.0-rc.11",
     "babel-eslint": "^8.2.6",
     "css-loader": "^0.25.0",
     "eslint": "^4.19.1",
-    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-prettier": "^3.6.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-vue": "^5.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-vue": "^5.2.2",
     "event-source-polyfill": "^0.0.7",
     "extract-text-webpack-plugin": "^2.0.0-rc",
     "file-loader": "^0.9.0",
@@ -25,22 +26,21 @@
     "scss-loader": "0.0.1",
     "style-loader": "^0.13.1",
     "url-loader": "^1.1.2",
-    "vue": "^2.5.16",
+    "vue": "^2.6.6",
     "vue-loader": "^11.1.4",
-    "vue-template-compiler": "^2.2.2",
+    "vue-template-compiler": "^2.6.6",
     "webpack": "^2.2.0",
     "webpack-hot-middleware": "^2.12.2"
   },
   "dependencies": {
-    "@aspnet/signalr": "^1.1.0",
+    "@aspnet/signalr": "^1.1.2",
     "axios": "^0.18.0",
-    "bootstrap-vue": "^2.0.0-rc.11",
-    "element-ui": "^2.4.11",
+    "element-ui": "^2.5.4",
     "emoji-mart-vue": "^2.6.6",
     "font-awesome": "^4.7.0",
     "lodash": "^4.17.11",
     "material-icons": "^0.3.0",
     "vue-router": "^3.0.2",
-    "vuex": "^3.0.1"
+    "vuex": "^3.1.0"
   }
 }

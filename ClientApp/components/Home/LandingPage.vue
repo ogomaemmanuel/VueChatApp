@@ -1,13 +1,16 @@
 ﻿<template>
   <div class="home-page-wrapper">
     <slot name="sidemenu">
-     
+     <i 
+        slot="side-menu-hider" 
+        class="el-icon-arrow-left menu-arrow"/>
     </slot>
     <div
       :style="homeWidth"
       class="delivery-app-body"
     >
       <slot name="top-nav-bar" />
+         <slot name="top-nav-bar"/>
       <div class="delivery-app-body-content">
         <transition name="fade">
           <router-view></router-view>
@@ -29,6 +32,7 @@
 </template>
 
 <script>
+    import { EventBus } from "../event-bus.js";
 import ChatFlyOut from "../ChatListFlyOut/ChatFlyOut.vue"
 import MessageBox from "../MessageBox/MessageBox.vue"
 export default {
@@ -50,7 +54,13 @@ export default {
     }
   },
   created () {
-   
+     let vm = this;
+    EventBus.$on("sideNavClosed", function() {
+      vm.homeWidth["margin-left"] = "0px";
+    });
+    EventBus.$on("showSideNav", function() {
+      vm.homeWidth["margin-left"] = "255px";
+    });
   }
 }
 </script>
