@@ -22,6 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="ClientApp\components\SetUp\ContactInfomation\" />
+    <Folder Include="ClientApp\components\SetUp\CountriesStatesZones\" />
     <Folder Include="ClientApp\css\" />
     <Folder Include="Data\NewFolder\" />
     <Folder Include="Features\AccessControl\Services\" />

@@ -4,6 +4,7 @@ const LandingPage = () => import("../components/Home/LandingPage.vue")
 const Login = () => import("../components/Auth/Login.vue")
 const Register = () => import("../components/Auth/Register.vue")
 const WebRtcComponent=()=> import("../components/MessageBox/RealTime/WebRTCPeerConnection.vue")
+const PaymentMethods = () => import("../components/SetUp/PaymentMethods/PaymentMethods.vue")
 Vue.use(Router)
 
 const routes = new Router({
@@ -17,7 +18,9 @@ const routes = new Router({
       path: "/register",
       name: "register",
       component: Register
-    },
+      },
+
+     
     {
       path: "/web-rtc",
       name: "web-rtc",
@@ -27,7 +30,14 @@ const routes = new Router({
     {
       path: "/home",
       name: "home",
-      component: LandingPage
+        component: LandingPage,
+        children: [
+            {
+                path: "/payment-methods-list",
+                name: "payment-methods-list",
+                component: PaymentMethods,
+            },
+            ]
     }
   ],
   mode: "history"

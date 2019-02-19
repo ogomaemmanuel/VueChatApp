@@ -1,34 +1,27 @@
 ﻿<template>
-  <div class="home-page-wrapper">
-    <slot name="sidemenu">
-     <i 
-        slot="side-menu-hider" 
-        class="el-icon-arrow-left menu-arrow"/>
-    </slot>
-    <div
-      :style="homeWidth"
-      class="delivery-app-body"
-    >
-      <slot name="top-nav-bar" />
-         <slot name="top-nav-bar"/>
-      <div class="delivery-app-body-content">
-        <transition name="fade">
-          <router-view></router-view>
-        </transition>
-      </div>
+    <div class="home-page-wrapper">
+        <slot name="sidemenu">
+            <i slot="side-menu-hider"
+               class="el-icon-arrow-left menu-arrow" />
+        </slot>
+        <div :style="homeWidth"
+             class="delivery-app-body">
+            <slot name="top-nav-bar" />
+            <div class="delivery-app-body-content">
+                <transition name="fade">
+                    <router-view />
+                </transition>
+            </div>
+        </div>
+        <div class="chat-area">
+            <div class="chats">
+                <MessageBox v-for="(user, index) in usersToChatWith"
+                            :key="index"
+                            :online-user="user" />
+            </div>
+            <ChatFlyOut />
+        </div>
     </div>
-    this is Home
-    <div class="chat-area">
-      <div class="chats">
-        <MessageBox
-          v-for="(user, index) in usersToChatWith"
-          :key="index"
-          :online-user="user"
-        />
-      </div>
-      <ChatFlyOut />
-    </div>
-  </div>
 </template>
 
 <script>
