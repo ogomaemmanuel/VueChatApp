@@ -33,6 +33,12 @@ const routes = new Router({
         component: LandingPage,
         children: [
             {
+                path: "/contact-information",
+                name: "contact-information",
+                component: () => import("../components/SetUp/ContactInfomation/ContactInformationCreate.vue")
+                    
+            },
+            {
                 path: "/payment-methods-list",
                 name: "payment-methods-list",
                 component: PaymentMethods,
