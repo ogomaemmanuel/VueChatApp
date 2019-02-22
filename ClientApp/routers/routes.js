@@ -43,6 +43,25 @@ const routes = new Router({
                 name: "payment-methods-list",
                 component: PaymentMethods,
             },
+            {
+                path: "/country_list",
+                name: "country_list",
+                component:()=> import("../components/SetUp/CountriesStatesZones/CountryList")
+                    
+            },
+
+            {
+                path: "/state-list",
+                name: "state-list",
+                component:()=> import("../components/SetUp/CountriesStatesZones/States/StateList")
+                    
+            },
+            {
+                path: "/zone-list",
+                name: "zone-list",
+                component:()=> import("../components/SetUp/CountriesStatesZones/Zones/ZoneList")
+                    
+            }
             ]
     }
   ],

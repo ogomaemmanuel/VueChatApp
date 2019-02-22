@@ -7,8 +7,8 @@
   </div>
 </template>
 <script>
-    import sidemenu from "../components/Home/SideNav";
-    import TopNavBar from "../components/Home/TopNav";
+    import sidemenu from "../components/Home/SideNav"
+    import TopNavBar from "../components/Home/TopNav"
 export default {
   components: {
       sidemenu,
