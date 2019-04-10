@@ -34,6 +34,10 @@
             <e p="ChatFlyOutSearchInput.vue" t="Include" />
             <e p="ChatUserCard.vue" t="Include" />
           </e>
+          <e p="common" t="Include">
+            <e p="Chip.vue" t="Include" />
+            <e p="ChipList.vue" t="Include" />
+          </e>
           <e p="event-bus.js" t="Include" />
           <e p="Home" t="Include">
             <e p="LandingPage.vue" t="Include" />
@@ -93,6 +97,11 @@
             <e p="Permissions" t="Include">
               <e p="PermissionItem.vue" t="Include" />
               <e p="PermissionList.vue" t="Include" />
+            </e>
+            <e p="Roles" t="Include">
+              <e p="RoleCreate.vue" t="Include" />
+              <e p="RoleItem.vue" t="Include" />
+              <e p="RoleList.vue" t="Include" />
             </e>
             <e p="UserCreate.vue" t="Include" />
             <e p="UserItem.vue" t="Include" />
