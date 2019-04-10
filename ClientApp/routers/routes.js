@@ -61,7 +61,24 @@ const routes = new Router({
                 name: "zone-list",
                 component:()=> import("../components/SetUp/CountriesStatesZones/Zones/ZoneList")
                     
-            }
+            },
+             //Users routes
+        {
+                path: "/user-list",
+                name: "user-list",
+            component: () => import("../components/Users/UserList")
+            },
+            {
+                path: "/user-create",
+                name: "user-create",
+                component:()=> import("../components/Users/UserCreate")
+            },
+            {
+                path: "/permission_list",
+                name: "permission_list",
+                component: () => import("../components/Users/Permissions/PermissionList")
+           
+            },
             ]
     }
   ],

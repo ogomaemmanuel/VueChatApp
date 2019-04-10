@@ -19,7 +19,7 @@
                         <input class="form-control"
                                type="text">
 
-                        <i class="fa fa-info-circle" />
+                        <i class="fa fa-info-circle"/>
                     </div>
 
                 </div>
@@ -271,90 +271,84 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {};
-  }
-};
+    export default {
+        data() {
+            return {};
+        }
+    };
 </script>
 
 <style lang="scss">
     .contact-information {
-        .company-identity
+        .company-identity {
+            .contact-information-form-control {
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
 
-    {
-        .contact-information-form-control
+                @media screen and (max-width: 878px) {
+                    flex-flow: column;
+                    align-items: flex-start;
+                }
+            }
 
-    {
-        display: flex;
-        align-items: center;
-        margin-bottom: 5px;
+            .contact-information-form-control-label {
+                flex-basis: 25%;
+                display: flex;
+                align-items: center;
 
-        @media screen and (max-width: 878px) {
-            flex-flow: column;
-            align-items: flex-start;
+                label {
+                    flex: 1;
+                }
+
+                span {
+                    margin-right: 16px;
+                    margin-left: 16px;
+                }
+
+                @media screen and (max-width: 878px) {
+                    flex: 1;
+                }
+
+            }
+
+            .contact-information-form-control-input {
+                flex-basis: 380px;
+                display: flex;
+                align-items: center;
+                align-content: space-between;
+                position: relative;
+
+                input {
+                    min-width: 300px;
+                }
+
+                i {
+                    color: #63b3d8;
+                    position: absolute;
+                    right: -20px;
+                }
+
+                @media screen and (max-width: 878px) {
+                    flex-basis: 100%;
+                }
+
+            }
+
+            .contact-information-form-control-links {
+                display: flex;
+                flex-flow: column;
+            }
+
         }
-    }
 
-    .contact-information-form-control-label {
-        flex-basis: 25%;
-        display: flex;
-        align-items: center;
-        label
+        .company-address {
+            @extend .company-identity;
+            margin-top: 20px;
+        }
 
-    {
-        flex: 1;
-    }
-
-    span {
-        margin-right: 16px;
-        margin-left: 16px;
-    }
-
-    @media screen and (max-width: 878px) {
-        flex: 1;
-    }
-
-    }
-
-    .contact-information-form-control-input {
-        flex-basis: 380px;
-        display: flex;
-        align-items: center;
-        align-content: space-between;
-        position: relative;
-        input
-
-    {
-        min-width: 300px;
-    }
-
-    i {
-        color: #63b3d8;
-        position: absolute;
-        right: -20px;
-    }
-
-    @media screen and (max-width: 878px) {
-        flex-basis: 100%;
-    }
-
-    }
-
-    .contact-information-form-control-links {
-        display: flex;
-        flex-flow: column;
-    }
-
-    }
-
-    .company-address {
-        @extend .company-identity;
-        margin-top: 20px;
-    }
-
-    .company-contacts {
-        @extend .company-address;
-    }
+        .company-contacts {
+            @extend .company-address;
+        }
     }
 </style>

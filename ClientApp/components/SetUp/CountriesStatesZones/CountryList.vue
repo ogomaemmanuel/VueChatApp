@@ -7,65 +7,66 @@
         <table>
             <thead>
 
-                <tr>
-                    <th />
-                    <th>Country</th>
-                    <th>Code</th>
-                    <th>State</th>
-                </tr>
+            <tr>
+                <th/>
+                <th>Country</th>
+                <th>Code</th>
+                <th>State</th>
+            </tr>
             </thead>
             <tbody>
-                <tr is="country-item"
-                    v-for="country in countries"
-                    :country="country"
-                    :key="country.id" />
+            <tr is="country-item"
+                v-for="country in countries"
+                :country="country"
+                :key="country.id"/>
             </tbody>
         </table>
     </div>
 </template>
 
 <script>
-import CountryItem from "./CountryItem";
-export default {
-  components: {
-    "country-item": CountryItem
-  },
-  data() {
-    return {
-      countries: [
-        {
-          id: 1,
-          name: "Hungary",
-          code: "HU",
-          stateCount: 6
+    import CountryItem from "./CountryItem";
+
+    export default {
+        components: {
+            "country-item": CountryItem
         },
-        {
-          id: 2,
-          name: "IceLand",
-          code: "IS",
-          stateCount: 0
+        data() {
+            return {
+                countries: [
+                    {
+                        id: 1,
+                        name: "Hungary",
+                        code: "HU",
+                        stateCount: 6
+                    },
+                    {
+                        id: 2,
+                        name: "IceLand",
+                        code: "IS",
+                        stateCount: 0
+                    },
+                    {
+                        id: 3,
+                        name: "India",
+                        code: "IN",
+                        stateCount: 0
+                    },
+                    {
+                        id: 4,
+                        name: "Indonesia",
+                        code: "ID",
+                        stateCount: 6
+                    }
+                ]
+            };
         },
-        {
-          id: 3,
-          name: "India",
-          code: "IN",
-          stateCount: 0
-        },
-        {
-          id: 4,
-          name: "Indonesia",
-          code: "ID",
-          stateCount: 6
+        methods: {
+            goToZoneList() {
+                this.$router.push("zone-list");
+            }
         }
-      ]
     };
-  },
-  methods: {
-    goToZoneList() {
-      this.$router.push("zone-list");
-    }
-  }
-};
 </script>
 
 <style lang="scss">

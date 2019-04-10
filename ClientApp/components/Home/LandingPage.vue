@@ -25,7 +25,7 @@
 </template>
 
 <script>
-    import { EventBus } from "../event-bus.js";
+import { EventBus } from "../event-bus.js";
 import ChatFlyOut from "../ChatListFlyOut/ChatFlyOut.vue"
 import MessageBox from "../MessageBox/MessageBox.vue"
 export default {

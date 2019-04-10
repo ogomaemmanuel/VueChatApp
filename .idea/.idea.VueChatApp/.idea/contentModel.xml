@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\OMEN15\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\OMEN15\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_VueChatApp.-14126327.00" t="ExcludeRecursive" />
+    <e p="C:\Users\OMEN15\projects\personal_projects\VueChatApp" t="IncludeRecursive">
+      <e p=".babelrc" t="Include" />
+      <e p=".dockerignore" t="Include" />
+      <e p=".eslintrc" t="Include" />
+      <e p=".gitignore" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="ChatTutorial.db" t="Include" />
+      <e p="ClientApp" t="Include">
+        <e p="assets" t="Include">
+          <e p="images" t="Include">
+            <e p="gif-icon.svg" t="Include" />
+          </e>
+          <e p="sass" t="Include">
+            <e p="_mixins.scss" t="Include" />
+          </e>
+        </e>
+        <e p="boot.js" t="Include" />
+        <e p="components" t="Include">
+          <e p="App.vue" t="Include" />
+          <e p="Auth" t="Include">
+            <e p="Login.vue" t="Include" />
+            <e p="Register.vue" t="Include" />
+          </e>
+          <e p="ChatListFlyOut" t="Include">
+            <e p="ChatFlyOut.vue" t="Include" />
+            <e p="ChatFlyOutHeader.vue" t="Include" />
+            <e p="ChatFlyOutSearchInput.vue" t="Include" />
+            <e p="ChatUserCard.vue" t="Include" />
+          </e>
+          <e p="event-bus.js" t="Include" />
+          <e p="Home" t="Include">
+            <e p="LandingPage.vue" t="Include" />
+            <e p="MenuComponent.vue" t="Include" />
+            <e p="SideNav.vue" t="Include" />
+            <e p="TopNav.vue" t="Include" />
+          </e>
+          <e p="MessageBox" t="Include">
+            <e p="Camera" t="Include">
+              <e p="CameraModal.vue" t="Include" />
+              <e p="Photo.vue" t="Include" />
+              <e p="Video.vue" t="Include" />
+            </e>
+            <e p="ChatMessageBoxHeader.vue" t="Include" />
+            <e p="Gif" t="Include">
+              <e p="Gifs.vue" t="Include" />
+            </e>
+            <e p="MessageBox.vue" t="Include" />
+            <e p="MessageBoxFooter.vue" t="Include" />
+            <e p="RealTime" t="Include">
+              <e p="CallControls.vue" t="Include" />
+              <e p="WebRTCPeerConnection.vue" t="Include" />
+            </e>
+            <e p="ReceivedMessageCard.vue" t="Include" />
+            <e p="SentMessageCard.vue" t="Include" />
+          </e>
+          <e p="SetUp" t="Include">
+            <e p="ContactInfomation" t="Include">
+              <e p="ContactInformationCreate.vue" t="Include" />
+            </e>
+            <e p="CountriesStatesZones" t="Include">
+              <e p="CountryItem.vue" t="Include" />
+              <e p="CountryList.vue" t="Include" />
+              <e p="States" t="Include">
+                <e p="StateItem.vue" t="Include" />
+                <e p="StateList.vue" t="Include" />
+              </e>
+              <e p="Zones" t="Include">
+                <e p="ZoneItem.vue" t="Include" />
+                <e p="ZoneList.vue" t="Include" />
+              </e>
+            </e>
+            <e p="PaymentMethods" t="Include">
+              <e p="Offline" t="Include">
+                <e p="OfflinePaymentCreate.vue" t="Include" />
+                <e p="OfflinePaymentItem.vue" t="Include" />
+                <e p="OfflinePaymentList.vue" t="Include" />
+              </e>
+              <e p="Online" t="Include">
+                <e p="OnlinePaymentItem.vue" t="Include" />
+                <e p="OnlinePaymentList.vue" t="Include" />
+              </e>
+              <e p="PaymentMethods.vue" t="Include" />
+            </e>
+          </e>
+          <e p="Users" t="Include">
+            <e p="Permissions" t="Include">
+              <e p="PermissionItem.vue" t="Include" />
+              <e p="PermissionList.vue" t="Include" />
+            </e>
+            <e p="UserCreate.vue" t="Include" />
+            <e p="UserItem.vue" t="Include" />
+            <e p="UserList.vue" t="Include" />
+            <e p="UserProfile.vue" t="Include" />
+          </e>
+        </e>
+        <e p="config" t="Include">
+          <e p="axios_interceptor.js" t="Include" />
+        </e>
+        <e p="css" t="Include" />
+        <e p="routers" t="Include">
+          <e p="routes.js" t="Include" />
+        </e>
+        <e p="store" t="Include">
+          <e p="index.js" t="Include" />
+          <e p="modules" t="Include">
+            <e p="Chat.js" t="Include" />
+            <e p="index.js" t="Include" />
+            <e p="Users.js" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="HomeController.cs" t="Include" />
+      </e>
+      <e p="Data" t="Include">
+        <e p="ChatDbContext.cs" t="Include" />
+        <e p="NewFolder" t="Include" />
+      </e>
+      <e p="Dockerfile" t="Include" />
+      <e p="Features" t="Include">
+        <e p="AccessControl" t="Include">
+          <e p="Controllers" t="Include">
+            <e p="AccountsController.cs" t="Include" />
+          </e>
+          <e p="Entities" t="Include">
+            <e p="AppRole.cs" t="Include" />
+            <e p="SystemUser.cs" t="Include" />
+          </e>
+          <e p="Models" t="Include">
+            <e p="LoginViewModel.cs" t="Include" />
+            <e p="RegisterViewModel.cs" t="Include" />
+            <e p="ResetPasswordViewModel.cs" t="Include" />
+            <e p="SystemUserViewModel.cs" t="Include" />
+          </e>
+          <e p="Services" t="Include" />
+        </e>
+        <e p="Chat" t="Include">
+          <e p="Controllers" t="Include">
+            <e p="ChatsController.cs" t="Include" />
+          </e>
+          <e p="Entities" t="Include">
+            <e p="Chat.cs" t="Include" />
+          </e>
+          <e p="Models" t="Include">
+            <e p="GifSearchQuery.cs" t="Include" />
+            <e p="IncommingChatMessageViewModel.cs" t="Include" />
+            <e p="OutgoingChatMessageViewModel.cs" t="Include" />
+          </e>
+          <e p="Services" t="Include">
+            <e p="ChatService.cs" t="Include" />
+            <e p="IChatService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="DocumentsManager" t="Include">
+          <e p="Buckets" t="Include">
+            <e p="Controllers" t="Include">
+              <e p="BucketsController.cs" t="Include" />
+            </e>
+            <e p="Services" t="Include">
+              <e p="BucketService.cs" t="Include" />
+              <e p="IBucketService.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Documents" t="Include">
+            <e p="Controllers" t="Include">
+              <e p="DocumentsController.cs" t="Include" />
+            </e>
+            <e p="Entities" t="Include">
+              <e p="Document.cs" t="Include" />
+            </e>
+            <e p="Models" t="Include">
+              <e p="DocumentResult.cs" t="Include" />
+            </e>
+            <e p="Services" t="Include">
+              <e p="DocumentService.cs" t="Include" />
+              <e p="IDocumentService.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Hubs" t="Include">
+        <e p="INotificationClient.cs" t="Include" />
+        <e p="NotificationHub.cs" t="Include" />
+      </e>
+      <e p="node_modules" t="ExcludeRecursive">
+        <e p="@aspnet\signalr" t="IncludeRecursive" />
+        <e p="aspnet-webpack" t="IncludeRecursive" />
+        <e p="axios" t="IncludeRecursive" />
+        <e p="babel-eslint" t="IncludeRecursive" />
+        <e p="bootstrap-vue" t="IncludeRecursive" />
+        <e p="css-loader" t="IncludeRecursive" />
+        <e p="element-ui" t="IncludeRecursive" />
+        <e p="emoji-mart-vue" t="IncludeRecursive" />
+        <e p="eslint" t="IncludeRecursive" />
+        <e p="eslint-config-prettier" t="IncludeRecursive" />
+        <e p="eslint-friendly-formatter" t="IncludeRecursive" />
+        <e p="eslint-plugin-prettier" t="IncludeRecursive" />
+        <e p="eslint-plugin-vue" t="IncludeRecursive" />
+        <e p="event-source-polyfill" t="IncludeRecursive" />
+        <e p="extract-text-webpack-plugin" t="IncludeRecursive" />
+        <e p="file-loader" t="IncludeRecursive" />
+        <e p="font-awesome" t="IncludeRecursive" />
+        <e p="isomorphic-fetch" t="IncludeRecursive" />
+        <e p="lodash" t="IncludeRecursive" />
+        <e p="material-icons" t="IncludeRecursive" />
+        <e p="node-sass" t="IncludeRecursive" />
+        <e p="prettier" t="IncludeRecursive" />
+        <e p="sass-loader" t="IncludeRecursive" />
+        <e p="scss-loader" t="IncludeRecursive" />
+        <e p="style-loader" t="IncludeRecursive" />
+        <e p="url-loader" t="IncludeRecursive" />
+        <e p="vue" t="IncludeRecursive" />
+        <e p="vue-loader" t="IncludeRecursive" />
+        <e p="vue-router" t="IncludeRecursive" />
+        <e p="vue-template-compiler" t="IncludeRecursive" />
+        <e p="vuex" t="IncludeRecursive" />
+        <e p="webpack" t="IncludeRecursive" />
+        <e p="webpack-hot-middleware" t="IncludeRecursive" />
+      </e>
+      <e p="npm-shrinkwrap.json" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.2" t="Include">
+            <e p="VueChatApp.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="package.json" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="README.md" t="Include" />
+      <e p="Services" t="Include">
+        <e p="CloudStorage" t="Include">
+          <e p="ICloudStorageService.cs" t="Include" />
+          <e p="S3StorageService.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="Uploads" t="Include">
+        <e p="images" t="Include">
+          <e p="904ef05a-6ea7-41ec-b517-abe314f8d3fd.png" t="Include" />
+        </e>
+        <e p="Videos" t="Include">
+          <e p="49eb5e4c-f7bf-47bc-aa69-2ab5d09f6d3e.mp4" t="Include" />
+        </e>
+      </e>
+      <e p="Views" t="Include">
+        <e p="_ViewImports.cshtml" t="Include" />
+        <e p="_ViewStart.cshtml" t="Include" />
+        <e p="Home" t="Include">
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="_Layout.cshtml" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+        </e>
+      </e>
+      <e p="VueChatApp.csproj" t="IncludeRecursive" />
+      <e p="VueChatApp.sln" t="IncludeFlat" />
+      <e p="webpack.config.js" t="Include" />
+      <e p="webpack.config.vendor.js" t="Include" />
+      <e p="wwwroot" t="Include">
+        <e p="assets" t="Include">
+          <e p="audio" t="Include">
+            <e p="beep.mp3" t="Include" />
+            <e p="beep.ogg" t="Include" />
+          </e>
+        </e>
+        <e p="dist" t="ExcludeRecursive">
+          <e p="0.js" t="Include" />
+          <e p="0.js.map" t="Include" />
+          <e p="1.js" t="Include" />
+          <e p="1.js.map" t="Include" />
+          <e p="10.js" t="Include" />
+          <e p="10.js.map" t="Include" />
+          <e p="11.js" t="Include" />
+          <e p="11.js.map" t="Include" />
+          <e p="2.js" t="Include" />
+          <e p="2.js.map" t="Include" />
+          <e p="3.js" t="Include" />
+          <e p="3.js.map" t="Include" />
+          <e p="4.js" t="Include" />
+          <e p="4.js.map" t="Include" />
+          <e p="5.js" t="Include" />
+          <e p="5.js.map" t="Include" />
+          <e p="6.js" t="Include" />
+          <e p="6.js.map" t="Include" />
+          <e p="674f50d287a8c48dc19ba404d20fe713.eot" t="Include" />
+          <e p="7.js" t="Include" />
+          <e p="7.js.map" t="Include" />
+          <e p="8.js" t="Include" />
+          <e p="8.js.map" t="Include" />
+          <e p="9.js" t="Include" />
+          <e p="9.js.map" t="Include" />
+          <e p="912ec66d7572ff821749319396470bde.svg" t="Include" />
+          <e p="b06871f281fee6b241d60582ae9369b9.ttf" t="Include" />
+          <e p="main.js" t="Include" />
+          <e p="main.js.map" t="Include" />
+          <e p="vendor-manifest.json" t="Include" />
+          <e p="vendor.css" t="Include" />
+          <e p="vendor.js" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="vue-app-service-worker.js" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

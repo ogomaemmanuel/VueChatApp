@@ -31,5 +31,6 @@ namespace VueChatApp.Features.DocumentsManager.Documents.Controllers
             await this.documentService.SaveDocument(file);
             return new OkObjectResult("File Successfully created");
         }
+        
     }
 }

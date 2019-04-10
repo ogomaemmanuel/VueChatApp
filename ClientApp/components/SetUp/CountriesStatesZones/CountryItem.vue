@@ -2,7 +2,7 @@
     <tr>
         <td>
             <input type="checkbox">
-            <i class="fa fa-power-off" />
+            <i class="fa fa-power-off"/>
         </td>
         <td>{{ country.name }}</td>
         <td>{{ country.code }}</td>
@@ -16,20 +16,20 @@
 </template>
 
 <script>
-export default {
-  props: {
-    country: {
-      type: Object,
-      default: null
-    }
-  },
-  data() {
-    return {};
-  },
-  methods: {
-    goToStateList() {
-      this.$router.push("state-list");
-    }
-  }
-};
+    export default {
+        props: {
+            country: {
+                type: Object,
+                default: null
+            }
+        },
+        data() {
+            return {};
+        },
+        methods: {
+            goToStateList() {
+                this.$router.push("state-list");
+            }
+        }
+    };
 </script>

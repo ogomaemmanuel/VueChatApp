@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b276efb9-93c9-40c5-84a9-bffe2d5128da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatTutorial.db" beforeDir="false" afterPath="$PROJECT_DIR$/ChatTutorial.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/components/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/components/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/components/Home/LandingPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/components/Home/LandingPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/components/MessageBox/MessageBox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/components/MessageBox/MessageBox.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/components/SetUp/CountriesStatesZones/CountryItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/components/SetUp/CountriesStatesZones/CountryItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/components/SetUp/CountriesStatesZones/CountryList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/components/SetUp/CountriesStatesZones/CountryList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/routers/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/routers/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/DocumentsManager/Documents/Controllers/DocumentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Features/DocumentsManager/Documents/Controllers/DocumentsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/npm-shrinkwrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/npm-shrinkwrap.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/wwwroot/dist/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Features/AccessControl/Controllers/AccountsController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="112" column="20" selection-start-line="112" selection-start-column="20" selection-end-line="112" selection-end-column="32" />
+              <folding>
+                <marker date="1551354302809" expanded="false" signature="6:506" ph="..." />
+                <marker date="1551354302809" expanded="true" signature="563:6021" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="646:6019" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="1081:1255" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="1409:2176" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="1455:2121" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="1528:1775" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="1937:2107" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="2293:3139" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="2339:3069" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="2475:2663" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="2754:2958" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="3305:3793" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="3363:3392" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="3487:3607" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="3919:4193" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="3959:4082" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="4246:5606" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="4299:4584" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="5076:5563" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="5265:5549" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="5678:6012" ph="{...}" />
+                <marker date="1551354302809" expanded="true" signature="5744:6001" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/components/SetUp/ContactInfomation/ContactInformationCreate.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5084" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/components/SetUp/CountriesStatesZones/CountryItem.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClientApp/components/SetUp/CountriesStatesZones/CountryList.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-719">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VueChatApp.csproj">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/components/Users/UserCreate.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1049">
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Features/AccessControl/Controllers/AccountsController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Features/AccessControl/Controllers/AccountsController.cs" />
+        <option value="$PROJECT_DIR$/ClientApp/components/Users/UserCreate.vue" />
+        <option value="$PROJECT_DIR$/ClientApp/components/SetUp/CountriesStatesZones/CountryItem.vue" />
+        <option value="$PROJECT_DIR$/ClientApp/components/SetUp/CountriesStatesZones/CountryList.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="170" />
+    <option name="y" value="50" />
+    <option name="width" value="3500" />
+    <option name="height" value="1960" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="components" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="components" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="SetUp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="components" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="SetUp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ContactInfomation" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="components" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="SetUp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CountriesStatesZones" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="components" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Users" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="VueChatApp" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/VueChatApp.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="VueChatApp" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b276efb9-93c9-40c5-84a9-bffe2d5128da" name="Default Changelist" comment="" />
+      <created>1554891919958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554891919958</updated>
+      <workItem from="1554891922845" duration="1363000" />
+      <workItem from="1554893847120" duration="327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1690000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="68" y="20" width="1400" height="784" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533532" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32874617" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="REST Client" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.32874617" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32874617" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Features/AccessControl/Controllers/AccountsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="112" column="20" selection-start-line="112" selection-start-column="20" selection-end-line="112" selection-end-column="32" />
+          <folding>
+            <marker date="1551354302809" expanded="false" signature="6:506" ph="..." />
+            <marker date="1551354302809" expanded="true" signature="563:6021" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="646:6019" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="1081:1255" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="1409:2176" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="1455:2121" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="1528:1775" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="1937:2107" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="2293:3139" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="2339:3069" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="2475:2663" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="2754:2958" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="3305:3793" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="3363:3392" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="3487:3607" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="3919:4193" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="3959:4082" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="4246:5606" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="4299:4584" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="5076:5563" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="5265:5549" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="5678:6012" ph="{...}" />
+            <marker date="1551354302809" expanded="true" signature="5744:6001" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueChatApp.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/Users/UserCreate.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1049">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/SetUp/ContactInfomation/ContactInformationCreate.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5084" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/SetUp/CountriesStatesZones/CountryItem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/SetUp/CountriesStatesZones/CountryList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-719">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
