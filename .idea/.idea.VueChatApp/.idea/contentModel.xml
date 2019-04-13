@@ -37,6 +37,7 @@
           <e p="common" t="Include">
             <e p="Chip.vue" t="Include" />
             <e p="ChipList.vue" t="Include" />
+            <e p="Paginator.vue" t="Include" />
           </e>
           <e p="event-bus.js" t="Include" />
           <e p="Home" t="Include">
@@ -63,6 +64,12 @@
             </e>
             <e p="ReceivedMessageCard.vue" t="Include" />
             <e p="SentMessageCard.vue" t="Include" />
+          </e>
+          <e p="Products" t="Include">
+            <e p="Product.vue" t="Include" />
+            <e p="ProductCreate.vue" t="Include" />
+            <e p="ProductEdit.vue" t="Include" />
+            <e p="ProductList.vue" t="Include" />
           </e>
           <e p="SetUp" t="Include">
             <e p="ContactInfomation" t="Include">
@@ -294,8 +301,36 @@
           <e p="10.js.map" t="Include" />
           <e p="11.js" t="Include" />
           <e p="11.js.map" t="Include" />
+          <e p="12.js" t="Include" />
+          <e p="12.js.map" t="Include" />
+          <e p="13.js" t="Include" />
+          <e p="13.js.map" t="Include" />
+          <e p="14.js" t="Include" />
+          <e p="14.js.map" t="Include" />
+          <e p="15.js" t="Include" />
+          <e p="15.js.map" t="Include" />
+          <e p="16.js" t="Include" />
+          <e p="16.js.map" t="Include" />
+          <e p="17.js" t="Include" />
+          <e p="17.js.map" t="Include" />
+          <e p="18.js" t="Include" />
+          <e p="18.js.map" t="Include" />
+          <e p="19.js" t="Include" />
+          <e p="19.js.map" t="Include" />
           <e p="2.js" t="Include" />
           <e p="2.js.map" t="Include" />
+          <e p="20.js" t="Include" />
+          <e p="20.js.map" t="Include" />
+          <e p="21.js" t="Include" />
+          <e p="21.js.map" t="Include" />
+          <e p="22.js" t="Include" />
+          <e p="22.js.map" t="Include" />
+          <e p="23.js" t="Include" />
+          <e p="23.js.map" t="Include" />
+          <e p="24.js" t="Include" />
+          <e p="24.js.map" t="Include" />
+          <e p="25.js" t="Include" />
+          <e p="25.js.map" t="Include" />
           <e p="3.js" t="Include" />
           <e p="3.js.map" t="Include" />
           <e p="4.js" t="Include" />

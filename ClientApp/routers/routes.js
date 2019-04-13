@@ -63,6 +63,13 @@ const routes = new Router({
                     component: () => import("../components/SetUp/CountriesStatesZones/Zones/ZoneList")
 
                 },
+
+                //Catalog Routes
+                {
+                    path: "/product-list",
+                    name: "product-list",
+                    component:()=> import("../components/Products/ProductList")
+                },
                 //Users routes
                 {
                     path: "/user-list",
