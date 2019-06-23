@@ -25,6 +25,7 @@
     <Folder Include="ClientApp\css\" />
     <Folder Include="Data\NewFolder\" />
     <Folder Include="Features\AccessControl\Services\" />
+    <Folder Include="Scripts" />
     <Folder Include="Uploads\Images\" />
     <Folder Include="Uploads\Videos\" />
   </ItemGroup>
