@@ -6,8 +6,10 @@ module.exports= function (callback,videoPath,outPath, videoFormat) {
         video
             //.setVideoFormat(videoFormat) 
             .setVideoCodec("h264") 
-            .save(outPath);
-        callback(null,"video created");
+            .save(outPath).then(()=>{
+                callback(null,"video created");
+            });
+       
     });
     
     

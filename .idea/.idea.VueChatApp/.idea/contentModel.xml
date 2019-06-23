@@ -273,9 +273,7 @@
         <e p="launchSettings.json" t="Include" />
       </e>
       <e p="README.md" t="Include" />
-      <e p="Scripts" t="Include">
-        <e p="dnksdnskdkns.mp4" t="Include" />
-      </e>
+      <e p="Scripts" t="Include" />
       <e p="Services" t="Include">
         <e p="CloudStorage" t="Include">
           <e p="ICloudStorageService.cs" t="Include" />
@@ -315,6 +313,7 @@
           <e p="0abfc338-e4e2-4180-b953-c01642c5dd24.mp4" t="Include" />
           <e p="1678de67-cac0-46b7-abb8-d04e18502fb0.mp4" t="Include" />
           <e p="28132bef-332e-438d-82cf-41c8de651854.mp4" t="Include" />
+          <e p="2e62725b-7218-44be-bcf0-5c9cca0d44a0.mp4" t="Include" />
           <e p="38077098-166c-4d3a-8d9e-810a20d6d0c0.mp4" t="Include" />
           <e p="3871c109-747f-4519-9c71-d7d4e66afd42.mp4" t="Include" />
           <e p="3b3afb31-ab0e-4b2c-aee9-1e0f413d26c5.mp4" t="Include" />
@@ -323,10 +322,13 @@
           <e p="5e4ec600-cb01-4dcc-a0f4-3f3d26954666.mp4" t="Include" />
           <e p="65ed6f84-1347-4d36-b1c9-07f9e3aea2fb.mp4" t="Include" />
           <e p="6cabd9ac-d723-475c-b8cd-aeece23100e4.mp4" t="Include" />
+          <e p="6ea16f03-7e2d-4cd0-811a-9f0fbec8c0fb.mp4" t="Include" />
           <e p="743abfb1-a782-4df1-bf77-ecb334ca9588.mp4" t="Include" />
           <e p="853c699a-faca-450a-9af7-f1fb0f6a9b9e.mp4" t="Include" />
           <e p="869146f2-cc0e-43c8-87ff-505b8741c38f.mp4" t="Include" />
+          <e p="87927fbd-25db-4583-8765-c507e88fb33d.mp4" t="Include" />
           <e p="8eb1b92d-1cec-40e7-8400-188c42c7164d.mp4" t="Include" />
+          <e p="97054c56-bbe9-4ef0-bc3d-968bbbf6822d.mp4" t="Include" />
           <e p="9a0f5423-5fdc-4727-9c43-baf5455a2e1d.mp4" t="Include" />
           <e p="a07ed954-5312-4d8f-a0b0-cc4dea720e05.mp4" t="Include" />
           <e p="a6cb0e18-3bc2-47e9-b6b0-6a53d94aeb50.mp4" t="Include" />

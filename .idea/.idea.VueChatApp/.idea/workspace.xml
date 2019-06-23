@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b276efb9-93c9-40c5-84a9-bffe2d5128da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/components/Products/Categories/Category.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/components/Products/Categories/CategoryCreate.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/components/Products/Categories/CategoryEdit.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/components/Products/Categories/CategoryList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/components/Products/Reviews/Review.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/components/Products/Reviews/ReviewCreate.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/components/Products/Reviews/ReviewEdit.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/components/Products/Reviews/ReviewList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/VideoConverter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatTutorial.db" beforeDir="false" afterPath="$PROJECT_DIR$/ChatTutorial.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/components/MessageBox/Camera/Video.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/components/MessageBox/Camera/Video.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/routers/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/routers/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Features/Chat/Services/ChatService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Chat/Services/ChatService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VueChatApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VueChatApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VueChatApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/VueChatApp.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/npm-shrinkwrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/npm-shrinkwrap.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="b276efb9-93c9-40c5-84a9-bffe2d5128da" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/wwwroot/dist/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +149,7 @@
         <entry file="file://$PROJECT_DIR$/Utils/VideoConverter.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -358,12 +334,6 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
               <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
@@ -459,12 +429,12 @@
       <workItem from="1560871817505" duration="5999000" />
       <workItem from="1560877919039" duration="219000" />
       <workItem from="1560878271639" duration="3328000" />
-      <workItem from="1561204290771" duration="22898000" />
+      <workItem from="1561204290771" duration="23087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73237000" />
+    <option name="totallyTimeSpent" value="73426000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -477,6 +447,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27900738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -486,7 +457,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3281471" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -497,7 +468,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32956153" />
       <window_info anchor="bottom" id="REST Client" order="12" weight="0.61103255" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.3281471" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.3281471" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="15" weight="0.44554454" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1040,7 +1011,7 @@
     <entry file="file://$PROJECT_DIR$/Utils/VideoConverter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
