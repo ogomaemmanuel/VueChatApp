@@ -44,7 +44,10 @@ export default {
             if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
 
                 navigator.mediaDevices.getUserMedia({
-                    video: true,
+                    video: {
+                        width: { ideal: 1280 },
+                        height: { ideal: 720 }
+                    },
                     audio: true
                 }).then(function (stream) {
                     video.srcObject = stream,
@@ -66,7 +69,7 @@ export default {
             }
             this.recorder.onstop = function () {
                 vm.videoBlob = new Blob(vm.recordedVideoChunks, {
-                    type: "video/mp4"
+                    'type' : 'video/MP4'
                 })
                 vm.recordedVideoChunks = []
                 vm.videoRecording = false

@@ -12,13 +12,17 @@ namespace VueChatApp
 {
     public class Program
     {
-
+        //private IHostingEnvironment env;
         public static void Main(string[] args)
         {
             CreatWebHostBuilder(args).Build().Run();
         }
-        public static IWebHostBuilder CreatWebHostBuilder(string[] args) =>
+        private static IWebHostBuilder CreatWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+                .UseStartup<Startup>().UseKestrel(options =>
+                {
+                    //TODO remove hard corded port
+                    options.ListenAnyIP(49615);
+                });
     }
 }

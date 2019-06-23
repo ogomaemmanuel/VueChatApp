@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="C:\Users\OMEN15\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\OMEN15\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\OMEN15\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\OMEN15\.Rider2018.3\config\javascript\nodejs\10.15.1\core-modules" t="IncludeRecursive" />
+    <e p="C:\Users\OMEN15\.Rider2018.3\config\javascript\nodejs\10.15.1\node-typings\node_modules\@types" t="IncludeRecursive" />
     <e p="C:\Users\OMEN15\.Rider2018.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\OMEN15\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_VueChatApp.-14126327.00" t="ExcludeRecursive" />
     <e p="C:\Users\OMEN15\projects\personal_projects\VueChatApp" t="IncludeRecursive">
@@ -66,10 +71,22 @@
             <e p="SentMessageCard.vue" t="Include" />
           </e>
           <e p="Products" t="Include">
+            <e p="Categories" t="Include">
+              <e p="Category.vue" t="Include" />
+              <e p="CategoryCreate.vue" t="Include" />
+              <e p="CategoryEdit.vue" t="Include" />
+              <e p="CategoryList.vue" t="Include" />
+            </e>
             <e p="Product.vue" t="Include" />
             <e p="ProductCreate.vue" t="Include" />
             <e p="ProductEdit.vue" t="Include" />
             <e p="ProductList.vue" t="Include" />
+            <e p="Reviews" t="Include">
+              <e p="Review.vue" t="Include" />
+              <e p="ReviewCreate.vue" t="Include" />
+              <e p="ReviewEdit.vue" t="Include" />
+              <e p="ReviewList.vue" t="Include" />
+            </e>
           </e>
           <e p="SetUp" t="Include">
             <e p="ContactInfomation" t="Include">
@@ -221,6 +238,7 @@
         <e p="eslint-plugin-vue" t="IncludeRecursive" />
         <e p="event-source-polyfill" t="IncludeRecursive" />
         <e p="extract-text-webpack-plugin" t="IncludeRecursive" />
+        <e p="ffmpeg" t="IncludeRecursive" />
         <e p="file-loader" t="IncludeRecursive" />
         <e p="font-awesome" t="IncludeRecursive" />
         <e p="isomorphic-fetch" t="IncludeRecursive" />
@@ -255,6 +273,9 @@
         <e p="launchSettings.json" t="Include" />
       </e>
       <e p="README.md" t="Include" />
+      <e p="Scripts" t="Include">
+        <e p="dnksdnskdkns.mp4" t="Include" />
+      </e>
       <e p="Services" t="Include">
         <e p="CloudStorage" t="Include">
           <e p="ICloudStorageService.cs" t="Include" />
@@ -264,11 +285,58 @@
       <e p="Startup.cs" t="Include" />
       <e p="Uploads" t="Include">
         <e p="images" t="Include">
+          <e p="17949105-da56-494f-bfaf-4dbbc475e1e7.png" t="Include" />
+          <e p="20fcd0b6-31e8-412b-941c-13c29c7bbc96.png" t="Include" />
+          <e p="24a71004-19a3-4ee4-8f5e-82ff09e19d8f.png" t="Include" />
+          <e p="38d8fb6b-4efc-4bb7-be62-eaeea3d846b9.png" t="Include" />
+          <e p="3f0a0601-3fe5-4d8b-ac5f-f338ca8703f9.png" t="Include" />
+          <e p="446537dc-5a28-4eb2-a417-38c1fcd85c98.png" t="Include" />
+          <e p="4e3bd067-c824-4554-8e36-574c93d22607.png" t="Include" />
+          <e p="4fac6de6-6469-4ecf-b155-6f62b03c3944.png" t="Include" />
+          <e p="50247745-0be0-4cb3-ac5b-e4df2543b43b.png" t="Include" />
+          <e p="53735a91-2f50-4652-8f37-b4b7adaa9161.png" t="Include" />
+          <e p="5453e6ad-0932-4eb2-87d0-7a2ab41fb31e.png" t="Include" />
+          <e p="5de128d9-5042-4163-9766-347bd2878a28.png" t="Include" />
+          <e p="5e9433bd-1de2-4cb7-851e-fbf6f768255b.png" t="Include" />
+          <e p="89a37813-d022-4296-887c-b680a2d0b0c2.png" t="Include" />
+          <e p="8a3b31cd-672b-444d-8c40-37f419f2b058.png" t="Include" />
+          <e p="8dc25f5a-0d8c-4be3-8046-d2990b752cf7.png" t="Include" />
           <e p="904ef05a-6ea7-41ec-b517-abe314f8d3fd.png" t="Include" />
+          <e p="930e78ec-0091-45e6-8bad-69c50baa583d.png" t="Include" />
+          <e p="9c1c9bef-cd69-4623-8edc-6634ab661596.png" t="Include" />
+          <e p="a25ac025-793e-45b0-87a9-d7e398817065.png" t="Include" />
+          <e p="b923820b-026b-421b-9d01-fcb907392fe1.png" t="Include" />
+          <e p="ba60adfa-fb8a-418b-bd38-dec368027e5f.png" t="Include" />
+          <e p="c4cd8c9b-c62c-4fe4-aac5-dd1659c16146.png" t="Include" />
+          <e p="c872ddff-418f-4009-947b-ead742786496.png" t="Include" />
+          <e p="dc76e605-d201-46ac-bcf2-87c046854804.png" t="Include" />
         </e>
         <e p="Videos" t="Include">
-          <e p="49eb5e4c-f7bf-47bc-aa69-2ab5d09f6d3e.mp4" t="Include" />
+          <e p="0abfc338-e4e2-4180-b953-c01642c5dd24.mp4" t="Include" />
+          <e p="1678de67-cac0-46b7-abb8-d04e18502fb0.mp4" t="Include" />
+          <e p="28132bef-332e-438d-82cf-41c8de651854.mp4" t="Include" />
+          <e p="38077098-166c-4d3a-8d9e-810a20d6d0c0.mp4" t="Include" />
+          <e p="3871c109-747f-4519-9c71-d7d4e66afd42.mp4" t="Include" />
+          <e p="3b3afb31-ab0e-4b2c-aee9-1e0f413d26c5.mp4" t="Include" />
+          <e p="4ab03168-b1e6-4d0d-9428-7cd10db9cdde.mp4" t="Include" />
+          <e p="5d559543-cbb1-4947-bae2-95156ba148df.mp4" t="Include" />
+          <e p="5e4ec600-cb01-4dcc-a0f4-3f3d26954666.mp4" t="Include" />
+          <e p="65ed6f84-1347-4d36-b1c9-07f9e3aea2fb.mp4" t="Include" />
+          <e p="6cabd9ac-d723-475c-b8cd-aeece23100e4.mp4" t="Include" />
+          <e p="743abfb1-a782-4df1-bf77-ecb334ca9588.mp4" t="Include" />
+          <e p="853c699a-faca-450a-9af7-f1fb0f6a9b9e.mp4" t="Include" />
+          <e p="869146f2-cc0e-43c8-87ff-505b8741c38f.mp4" t="Include" />
+          <e p="8eb1b92d-1cec-40e7-8400-188c42c7164d.mp4" t="Include" />
+          <e p="9a0f5423-5fdc-4727-9c43-baf5455a2e1d.mp4" t="Include" />
+          <e p="a07ed954-5312-4d8f-a0b0-cc4dea720e05.mp4" t="Include" />
+          <e p="a6cb0e18-3bc2-47e9-b6b0-6a53d94aeb50.mp4" t="Include" />
+          <e p="cbd04202-41eb-45d7-834a-a7c1ffbded10.mp4" t="Include" />
+          <e p="d1b735d1-f322-44d7-b498-0660cad5725b.mp4" t="Include" />
         </e>
+      </e>
+      <e p="Utils" t="Include">
+        <e p="VideoConverter.cs" t="Include" />
+        <e p="VideoConverter.js" t="Include" />
       </e>
       <e p="Views" t="Include">
         <e p="_ViewImports.cshtml" t="Include" />
@@ -357,6 +425,20 @@
         <e p="favicon.ico" t="Include" />
         <e p="vue-app-service-worker.js" t="Include" />
       </e>
+    </e>
+    <e p="C:\Users\OMEN15\RiderProjects\VueChatTest\VueChatTest" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.2" t="Include">
+            <e p="VueChatTest.AssemblyInfo.cs" t="Include" />
+            <e p="VueChatTest.Program.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Tests" t="Include" />
+      <e p="UnitTest1.cs" t="Include" />
+      <e p="VueChatTest.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>

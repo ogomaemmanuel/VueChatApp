@@ -15,6 +15,7 @@ using VueChatApp.Features.Chat.Models;
 using VueChatApp.Features.DocumentsManager.Documents.Controllers;
 using VueChatApp.Features.DocumentsManager.Documents.Entities;
 using VueChatApp.Hubs;
+using VueChatApp.Utils;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace VueChatApp.Features.Chat.Services
@@ -22,6 +23,7 @@ namespace VueChatApp.Features.Chat.Services
     public class ChatService : IChatService
     {
         private readonly ChatDbContext _dbContext;
+        private readonly VideoConverter _videoConverter;
         private readonly HttpClient _httpClient;
         protected readonly LinkGenerator _linkGenerator;
         readonly IHttpContextAccessor _httpContextAccessor;
@@ -30,6 +32,7 @@ namespace VueChatApp.Features.Chat.Services
             IHubContext<NotificationHub, INotificationClient> hubContext,
             HttpClient httpClient,
             LinkGenerator linkGenerator,
+            VideoConverter videoConverter,
             IHttpContextAccessor httpContextAccessor
 
             ) {
@@ -38,6 +41,7 @@ namespace VueChatApp.Features.Chat.Services
             _httpClient = httpClient;
             _linkGenerator = linkGenerator;
             _httpContextAccessor = httpContextAccessor;
+            _videoConverter = videoConverter;
 
 
         }
@@ -60,22 +64,29 @@ namespace VueChatApp.Features.Chat.Services
                         break;
                     case "video":
                         var fileName = Guid.NewGuid().ToString();
+                        var fileNameConveted = Guid.NewGuid().ToString();
                         var ext = Path.GetExtension(incommingChatMessageViewModel.Video.FileName);
+                    
                         var videoUploadPath = $"Uploads/Videos/{fileName}{ext}";
+                        var videoConvertedVideoPath = $"Uploads/Videos/{fileNameConveted}{ext}";
+                        
                         var document = new Document {
                             ContentType = incommingChatMessageViewModel.Video.ContentType,
                             Ext = ext,
-                            Name = fileName,
-                            Path= videoUploadPath
+                            Name = fileNameConveted,
+                            Path= videoConvertedVideoPath
                         };
                        chatMessage.Message = _linkGenerator.GetPathByAction(nameof(DocumentsController.Get),
                             "documents",
-                            new {name= fileName }
+                            new {name= fileNameConveted }
                             );
                         using (var stream = new FileStream(videoUploadPath, FileMode.Create))
                         {
                             await incommingChatMessageViewModel.Video.CopyToAsync(stream);
                         }
+
+                       await _videoConverter.Convert(Path.GetFullPath(videoUploadPath), Path.GetFullPath(videoConvertedVideoPath));
+                     
                         await _dbContext.AddAsync(document);
                         break;
                     default:

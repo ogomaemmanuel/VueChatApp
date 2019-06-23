@@ -7,7 +7,6 @@ const Register = () => import("../components/Auth/Register.vue")
 const WebRtcComponent = () => import("../components/MessageBox/RealTime/WebRTCPeerConnection.vue")
 const PaymentMethods = () => import("../components/SetUp/PaymentMethods/PaymentMethods.vue")
 Vue.use(Router)
-
 const routes = new Router({
     routes: [
         {
@@ -97,5 +96,4 @@ const routes = new Router({
     ],
     mode: "history"
 })
-
 export default routes

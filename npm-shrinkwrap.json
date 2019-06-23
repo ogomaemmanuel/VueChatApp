@@ -2357,6 +2357,14 @@
       "integrity": "sha1-0eJkOzipTXWDtHkGDmxK/8lAcfg=",
       "dev": true
     },
+    "ffmpeg": {
+      "version": "0.0.4",
+      "resolved": "https://registry.npmjs.org/ffmpeg/-/ffmpeg-0.0.4.tgz",
+      "integrity": "sha1-HEYN+OfaUSf2LO70v6BsWciWMMs=",
+      "requires": {
+        "when": ">= 0.0.1"
+      }
+    },
     "figures": {
       "version": "2.0.0",
       "resolved": "https://registry.npmjs.org/figures/-/figures-2.0.0.tgz",
@@ -7553,6 +7561,11 @@
       "resolved": "https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz",
       "integrity": "sha1-nITsLc9oGH/wC8ZOEnS0QhduHIQ=",
       "dev": true
+    },
+    "when": {
+      "version": "3.7.8",
+      "resolved": "https://registry.npmjs.org/when/-/when-3.7.8.tgz",
+      "integrity": "sha1-xxMLan6gRpPoQs3J56Hyqjmjn4I="
     },
     "whet.extend": {
       "version": "0.9.9",

@@ -13,10 +13,10 @@
     <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.3.6" />
     <PackageReference Include="AWSSDK.S3" Version="3.3.31.5" />
     <PackageReference Include="Microsoft.AspNetCore.All" />
+    <PackageReference Include="Microsoft.AspNetCore.NodeServices" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.0.2105168" />
   </ItemGroup>
-
   <ItemGroup>
    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
   </ItemGroup>
@@ -27,6 +27,11 @@
     <Folder Include="Features\AccessControl\Services\" />
     <Folder Include="Uploads\Images\" />
     <Folder Include="Uploads\Videos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="TestProject1\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="TestProject1\obj\project.packagespec.json" />
   </ItemGroup>
 
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">

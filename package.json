@@ -37,6 +37,7 @@
     "axios": "^0.18.0",
     "element-ui": "^2.5.4",
     "emoji-mart-vue": "^2.6.6",
+    "ffmpeg": "0.0.4",
     "font-awesome": "^4.7.0",
     "lodash": "^4.17.11",
     "material-icons": "^0.3.0",
