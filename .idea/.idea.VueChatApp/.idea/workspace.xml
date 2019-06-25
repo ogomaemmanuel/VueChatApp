@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b276efb9-93c9-40c5-84a9-bffe2d5128da" name="Default Changelist" comment="" />
+    <list default="true" id="b276efb9-93c9-40c5-84a9-bffe2d5128da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatTutorial.db" beforeDir="false" afterPath="$PROJECT_DIR$/ChatTutorial.db" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/wwwroot/dist/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,13 +29,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Utils/VideoConverter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
+            <state relative-caret-position="270">
               <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding>
-                <marker date="1561289021745" expanded="true" signature="6:165" ph="..." />
+                <marker date="1561289021745" expanded="false" signature="6:165" ph="..." />
                 <marker date="1561289021745" expanded="true" signature="194:840" ph="{...}" />
                 <marker date="1561289021745" expanded="true" signature="228:838" ph="{...}" />
                 <marker date="1561289021745" expanded="true" signature="346:408" ph="{...}" />
@@ -46,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/74/66091a99/SafeHandleZeroOrMinusOneIsInvalid.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="330">
               <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
             </state>
           </provider>
@@ -55,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/c9/004a549c/SafeHandle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="930">
               <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
             </state>
           </provider>
@@ -64,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/30/b74fd821/WaitHandle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="5205">
               <caret line="350" column="6" selection-start-line="350" selection-start-column="6" selection-end-line="350" selection-end-column="6" />
             </state>
           </provider>
@@ -73,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Features/DocumentsManager/Documents/Services/DocumentService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="105">
               <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding>
                 <marker date="1551354302821" expanded="false" signature="6:296" ph="..." />
@@ -92,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05971759-6C28-4C92-98B6-94EDCDB6DE49/bd/555fdb00/Process.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="2160">
               <caret line="153" column="10" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="10" />
             </state>
           </provider>
@@ -101,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F513CD8-D728-40FE-862C-7BE9A368980E/23/1cc5d6de/OutOfProcessNodeInstance.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="1335">
               <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
             </state>
           </provider>
@@ -110,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Features/Chat/Services/ChatService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
+            <state relative-caret-position="825">
               <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
               <folding>
                 <marker date="1561292298485" expanded="false" signature="6:625" ph="..." />
@@ -134,7 +138,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Features/DocumentsManager/Documents/Models/DocumentResult.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="45">
               <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <marker date="1551354302820" expanded="false" signature="6:113" ph="..." />
@@ -145,11 +149,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Utils/VideoConverter.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -179,10 +183,10 @@
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F513CD8-D728-40FE-862C-7BE9A368980E/23/1cc5d6de/OutOfProcessNodeInstance.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/VueChatApp.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05971759-6C28-4C92-98B6-94EDCDB6DE49/bd/555fdb00/Process.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/30/b74fd821/WaitHandle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05971759-6C28-4C92-98B6-94EDCDB6DE49/bd/555fdb00/Process.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/30/b74fd821/WaitHandle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B1894F59-867C-4729-8E08-ACB52994C75D/85/22a0ab68/AWSCredentials.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/c9/004a549c/SafeHandle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/c9/004a549c/SafeHandle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hubs/INotificationClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B1894F59-867C-4729-8E08-ACB52994C75D/a9/43ef01cf/RegionEndpoint.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hubs/NotificationHub.cs" root0="FORCE_HIGHLIGHTING" />
@@ -256,6 +260,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -263,109 +268,11 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Features" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Features" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chat" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Features" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chat" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Features" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Chat" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Features" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DocumentsManager" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Features" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DocumentsManager" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Documents" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Features" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DocumentsManager" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Documents" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Features" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DocumentsManager" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Documents" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Uploads" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Uploads" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Videos" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Utils" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="VueChatTest" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -429,12 +336,13 @@
       <workItem from="1560871817505" duration="5999000" />
       <workItem from="1560877919039" duration="219000" />
       <workItem from="1560878271639" duration="3328000" />
-      <workItem from="1561204290771" duration="23087000" />
+      <workItem from="1561204290771" duration="24092000" />
+      <workItem from="1561474252638" duration="625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73426000" />
+    <option name="totallyTimeSpent" value="75056000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,7 +357,7 @@
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27900738" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28303152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -457,7 +365,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3281471" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3281471" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -468,7 +376,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32956153" />
       <window_info anchor="bottom" id="REST Client" order="12" weight="0.61103255" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.3281471" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="15" weight="0.44554454" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -495,7 +403,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Utils/VideoConverter.js</url>
           <line>3</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
@@ -833,9 +740,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Uploads/Videos/7f821286-7e23-4234-a727-d356f8d00af4c0b2335e-7a4b-4402-8387-b96e59c2ddf8+.mp4">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Uploads/Videos/7f821286-7e23-4234-a727-d356f8d00af4c0b2335e-7a4b-4402-8387-b96e59c2ddf8+.mp4" />
     <entry file="file://$PROJECT_DIR$/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -906,47 +811,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/30/b74fd821/WaitHandle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="350" column="6" selection-start-line="350" selection-start-column="6" selection-end-line="350" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05971759-6C28-4C92-98B6-94EDCDB6DE49/bd/555fdb00/Process.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="153" column="10" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F513CD8-D728-40FE-862C-7BE9A368980E/23/1cc5d6de/OutOfProcessNodeInstance.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/c9/004a549c/SafeHandle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/74/66091a99/SafeHandleZeroOrMinusOneIsInvalid.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Utils/VideoConverter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
+        <state relative-caret-position="270">
           <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding>
-            <marker date="1561289021745" expanded="true" signature="6:165" ph="..." />
+            <marker date="1561289021745" expanded="false" signature="6:165" ph="..." />
             <marker date="1561289021745" expanded="true" signature="194:840" ph="{...}" />
             <marker date="1561289021745" expanded="true" signature="228:838" ph="{...}" />
             <marker date="1561289021745" expanded="true" signature="346:408" ph="{...}" />
@@ -957,21 +827,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Features/DocumentsManager/Documents/Models/DocumentResult.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/74/66091a99/SafeHandleZeroOrMinusOneIsInvalid.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <marker date="1551354302820" expanded="false" signature="6:113" ph="..." />
-            <marker date="1551354302820" expanded="true" signature="178:323" ph="{...}" />
-            <marker date="1551354302820" expanded="true" signature="212:321" ph="{...}" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/c9/004a549c/SafeHandle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/30/b74fd821/WaitHandle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5205">
+          <caret line="350" column="6" selection-start-line="350" selection-start-column="6" selection-end-line="350" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Features/DocumentsManager/Documents/Services/DocumentService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="105">
           <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <marker date="1551354302821" expanded="false" signature="6:296" ph="..." />
@@ -986,9 +865,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05971759-6C28-4C92-98B6-94EDCDB6DE49/bd/555fdb00/Process.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="153" column="10" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F513CD8-D728-40FE-862C-7BE9A368980E/23/1cc5d6de/OutOfProcessNodeInstance.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Features/Chat/Services/ChatService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
+        <state relative-caret-position="825">
           <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
           <folding>
             <marker date="1561292298485" expanded="false" signature="6:625" ph="..." />
@@ -1008,10 +901,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Features/DocumentsManager/Documents/Models/DocumentResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <marker date="1551354302820" expanded="false" signature="6:113" ph="..." />
+            <marker date="1551354302820" expanded="true" signature="178:323" ph="{...}" />
+            <marker date="1551354302820" expanded="true" signature="212:321" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Utils/VideoConverter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
