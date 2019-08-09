@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b276efb9-93c9-40c5-84a9-bffe2d5128da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ClientApp/components/Auth/QrCodeLogin.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/QrCode/Controllers/QrCodeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/QrCode/Entities/QrCode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/QrCode/IQrCodeGeneratorService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/QrCode/QrCodeGeneratorService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hubs/QrLoginHub.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ChatTutorial.db" beforeDir="false" afterPath="$PROJECT_DIR$/ChatTutorial.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/components/Auth/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/components/Auth/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/routers/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/routers/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/ChatDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/ChatDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/AccessControl/Controllers/AccountsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Features/AccessControl/Controllers/AccountsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueChatApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VueChatApp.csproj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/wwwroot/dist/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,130 +42,150 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Utils/VideoConverter.cs">
+        <entry file="file://$PROJECT_DIR$/ClientApp/components/Auth/QrCodeLogin.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="370">
+              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
               <folding>
-                <marker date="1561289021745" expanded="false" signature="6:165" ph="..." />
-                <marker date="1561289021745" expanded="true" signature="194:840" ph="{...}" />
-                <marker date="1561289021745" expanded="true" signature="228:838" ph="{...}" />
-                <marker date="1561289021745" expanded="true" signature="346:408" ph="{...}" />
-                <marker date="1561289021745" expanded="true" signature="485:832" ph="{...}" />
-                <marker date="1561289021745" expanded="true" signature="511:692" ph="{...}" />
-                <marker date="1561289021745" expanded="true" signature="724:813" ph="{...}" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="e#126#151#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/74/66091a99/SafeHandleZeroOrMinusOneIsInvalid.cs">
+        <entry file="file://$PROJECT_DIR$/ClientApp/components/Auth/Login.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="240">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/c9/004a549c/SafeHandle.cs">
+        <entry file="file://$PROJECT_DIR$/ClientApp/routers/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/30/b74fd821/WaitHandle.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5205">
-              <caret line="350" column="6" selection-start-line="350" selection-start-column="6" selection-end-line="350" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Features/DocumentsManager/Documents/Services/DocumentService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
-                <marker date="1551354302821" expanded="false" signature="6:296" ph="..." />
-                <marker date="1551354302821" expanded="true" signature="363:1398" ph="{...}" />
-                <marker date="1551354302821" expanded="true" signature="417:1396" ph="{...}" />
-                <marker date="1551354302821" expanded="true" signature="539:594" ph="{...}" />
-                <marker date="1551354302821" expanded="true" signature="657:1266" ph="{...}" />
-                <marker date="1551354302821" expanded="true" signature="800:1207" ph="{...}" />
-                <marker date="1551354302821" expanded="true" signature="1055:1162" ph="{...}" />
-                <marker date="1551354302821" expanded="true" signature="1320:1390" ph="{...}" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05971759-6C28-4C92-98B6-94EDCDB6DE49/bd/555fdb00/Process.cs">
+        <entry file="file://$PROJECT_DIR$/Data/ChatDbContext.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2160">
-              <caret line="153" column="10" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F513CD8-D728-40FE-862C-7BE9A368980E/23/1cc5d6de/OutOfProcessNodeInstance.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Features/Chat/Services/ChatService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
+            <state relative-caret-position="135">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
-                <marker date="1561292298485" expanded="false" signature="6:625" ph="..." />
-                <marker date="1561292298485" expanded="true" signature="670:5893" ph="{...}" />
-                <marker date="1561292298485" expanded="true" signature="716:5891" ph="{...}" />
-                <marker date="1561292298485" expanded="true" signature="1400:1671" ph="{...}" />
-                <marker date="1561292298485" expanded="true" signature="1805:5068" ph="{...}" />
-                <marker date="1561292298485" expanded="true" signature="1876:2137" ph="{...}" />
-                <marker date="1561292298485" expanded="true" signature="2198:4172" ph="{...}" />
-                <marker date="1561292298485" expanded="true" signature="2260:4156" ph="{...}" />
-                <marker date="1561292298485" expanded="true" signature="3086:3354" ph="{...}" />
-                <marker date="1561292298485" expanded="true" signature="3688:3831" ph="{...}" />
-                <marker date="1561292298485" expanded="true" signature="4366:4859" ph="{...}" />
-                <marker date="1561292298485" expanded="true" signature="5119:5430" ph="{...}" />
-                <marker date="1561292298485" expanded="true" signature="5512:5885" ph="{...}" />
+                <marker date="1565350695542" expanded="false" signature="6:424" ph="..." />
+                <marker date="1565350695542" expanded="true" signature="451:845" ph="{...}" />
+                <marker date="1565350695542" expanded="true" signature="540:843" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Features/DocumentsManager/Documents/Models/DocumentResult.cs">
+        <entry file="file://$PROJECT_DIR$/Features/QrCode/Entities/QrCode.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="165">
+              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
               <folding>
-                <marker date="1551354302820" expanded="false" signature="6:113" ph="..." />
-                <marker date="1551354302820" expanded="true" signature="178:323" ph="{...}" />
-                <marker date="1551354302820" expanded="true" signature="212:321" ph="{...}" />
+                <marker date="1565350693660" expanded="false" signature="6:65" ph="..." />
+                <marker date="1565350693660" expanded="true" signature="112:457" ph="{...}" />
+                <marker date="1565350693660" expanded="true" signature="160:455" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Utils/VideoConverter.js">
+        <entry file="file://$PROJECT_DIR$/ClientApp/store/modules/Chat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state>
+              <caret selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+              <folding>
+                <marker date="1565360467578" expanded="false" signature="6:930" ph="..." />
+                <marker date="1565360467578" expanded="true" signature="952:5477" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="979:5475" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="1111:1205" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="1428:4240" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="2168:2604" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="2738:2947" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="2979:4137" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="3074:3473" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="3532:4128" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="3578:3942" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="3795:3880" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="3993:4116" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="4428:5469" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="4475:4714" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="4631:4698" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="4731:4815" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="4924:5086" ph="{...}" />
+                <marker date="1565360467578" expanded="true" signature="5121:5457" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hubs/NotificationHub.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-495">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <marker date="1551354302823" expanded="false" signature="6:245" ph="..." />
+                <marker date="1551354302823" expanded="true" signature="272:2014" ph="{...}" />
+                <marker date="1551354302823" expanded="true" signature="350:2012" ph="{...}" />
+                <marker date="1551354302823" expanded="true" signature="598:662" ph="{...}" />
+                <marker date="1551354302823" expanded="true" signature="727:851" ph="{...}" />
+                <marker date="1551354302823" expanded="true" signature="901:995" ph="{...}" />
+                <marker date="1551354302823" expanded="true" signature="1065:1312" ph="{...}" />
+                <marker date="1551354302823" expanded="true" signature="1132:1246" ph="{...}" />
+                <marker date="1551354302823" expanded="true" signature="1351:2006" ph="{...}" />
+                <marker date="1551354302823" expanded="true" signature="1471:1744" ph="{...}" />
+                <marker date="1551354302823" expanded="true" signature="1800:1937" ph="{...}" />
+                <marker date="1551354302823" expanded="true" signature="1861:1922" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hubs/QrLoginHub.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="68" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="68" />
+              <folding>
+                <marker date="1565359108105" expanded="true" signature="6:113" ph="..." />
+                <marker date="1565359108105" expanded="true" signature="140:618" ph="{...}" />
+                <marker date="1565359108105" expanded="true" signature="174:616" ph="{...}" />
+                <marker date="1565359108105" expanded="true" signature="316:394" ph="{...}" />
+                <marker date="1565359108105" expanded="true" signature="431:601" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,19 +215,24 @@
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F513CD8-D728-40FE-862C-7BE9A368980E/23/1cc5d6de/OutOfProcessNodeInstance.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/VueChatApp.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05971759-6C28-4C92-98B6-94EDCDB6DE49/bd/555fdb00/Process.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05971759-6C28-4C92-98B6-94EDCDB6DE49/bd/555fdb00/Process.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/30/b74fd821/WaitHandle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B1894F59-867C-4729-8E08-ACB52994C75D/85/22a0ab68/AWSCredentials.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/c9/004a549c/SafeHandle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/ChatDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hubs/INotificationClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B1894F59-867C-4729-8E08-ACB52994C75D/a9/43ef01cf/RegionEndpoint.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hubs/NotificationHub.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Features/Chat/Entities/Chat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Features/Chat/Services/IChatService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Features/Chat/Services/ChatService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/74/66091a99/SafeHandleZeroOrMinusOneIsInvalid.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Features/Chat/Controllers/ChatsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A315A376-1873-4D2D-88D5-C156B0F05BB6/21/f62c0662/AWSOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Features/QrCode/QrCodeGeneratorService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/08/5074ad28/Task`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Features/AccessControl/Entities/SystemUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Features/QrCode/IQrCodeGeneratorService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Features/AccessControl/Controllers/AccountsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/21/f8501969/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A315A376-1873-4D2D-88D5-C156B0F05BB6/8b/9e565e08/ServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -203,15 +240,18 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D871B247-2F61-41B1-B2C5-74368EB757F6/1f/00b44321/AmazonS3Client.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Utils/VideoConverter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA55E692-DA2C-4C8A-912D-364A352AAD35/a5/f57a9e3d/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Features/QrCode/Controllers/QrCodeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/CloudStorage/S3StorageService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hubs/QrLoginHub.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/CloudStorage/ICloudStorageService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1571C05F-E355-4EE9-BF63-E97B4EF6249D/2F/SymmetricSecurityKey.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Features/QrCode/Entities/QrCode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Features/DocumentsManager/Buckets/Services/BucketService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F513CD8-D728-40FE-862C-7BE9A368980E/c9/a9e1b31f/INodeServices.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Features/AccessControl/Controllers/AccountsController.cs" />
         <option value="$PROJECT_DIR$/ClientApp/components/Users/UserCreate.vue" />
         <option value="$PROJECT_DIR$/ClientApp/components/SetUp/CountriesStatesZones/CountryItem.vue" />
         <option value="$PROJECT_DIR$/ClientApp/components/SetUp/CountriesStatesZones/CountryList.vue" />
@@ -224,7 +264,6 @@
         <option value="$PROJECT_DIR$/ClientApp/components/Products/ProductCreate.vue" />
         <option value="$PROJECT_DIR$/ClientApp/components/Products/Product.vue" />
         <option value="$PROJECT_DIR$/ClientApp/components/Products/ProductList.vue" />
-        <option value="$PROJECT_DIR$/ClientApp/routers/routes.js" />
         <option value="$PROJECT_DIR$/ClientApp/components/MessageBox/MessageBoxFooter.vue" />
         <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/Services/CloudStorage/S3StorageService.cs" />
@@ -235,11 +274,23 @@
         <option value="$PROJECT_DIR$/TestProject1/VideoConverterTest.cs" />
         <option value="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/VueChatApp.AssemblyInfo.cs" />
         <option value="$PROJECT_DIR$/VueChatApp.csproj" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Scripts/VideoConverter.js" />
         <option value="$PROJECT_DIR$/Utils/VideoConverter.cs" />
-        <option value="$PROJECT_DIR$/Features/Chat/Services/ChatService.cs" />
         <option value="$PROJECT_DIR$/Utils/VideoConverter.js" />
+        <option value="$PROJECT_DIR$/Features/Chat/Services/ChatService.cs" />
+        <option value="$PROJECT_DIR$/Features/AccessControl/Controllers/AccountsController.cs" />
+        <option value="$PROJECT_DIR$/Data/ChatDbContext.cs" />
+        <option value="$PROJECT_DIR$/Features/QrCode/Entities/QrCode.cs" />
+        <option value="$PROJECT_DIR$/Features/QrCode/IQrCodeGenerator.cs" />
+        <option value="$PROJECT_DIR$/Features/QrCode/QrCodeGenerator.cs" />
+        <option value="$PROJECT_DIR$/Features/QrCode/IQrCodeGeneratorService.cs" />
+        <option value="$PROJECT_DIR$/Features/QrCode/Controllers/QrCodeController.cs" />
+        <option value="$PROJECT_DIR$/Features/QrCode/QrCodeGeneratorService.cs" />
+        <option value="$PROJECT_DIR$/Hubs/QrLoginHub.cs" />
+        <option value="$PROJECT_DIR$/ClientApp/routers/routes.js" />
+        <option value="$PROJECT_DIR$/ClientApp/components/Auth/Login.vue" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/ClientApp/components/Auth/QrCodeLogin.vue" />
       </list>
     </option>
   </component>
@@ -260,7 +311,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -268,12 +318,147 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="components" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="components" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Auth" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="components" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ChatListFlyOut" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="routers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="store" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="store" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="modules" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Data" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Features" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Features" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Chat" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Features" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Chat" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Features" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Chat" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Entities" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Features" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Chat" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Features" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="QrCode" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Features" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="QrCode" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Features" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="QrCode" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Entities" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Hubs" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,12 +522,21 @@
       <workItem from="1560877919039" duration="219000" />
       <workItem from="1560878271639" duration="3328000" />
       <workItem from="1561204290771" duration="24092000" />
-      <workItem from="1561474252638" duration="625000" />
+      <workItem from="1561474252638" duration="1996000" />
+      <workItem from="1561722906188" duration="2556000" />
+      <workItem from="1562448763554" duration="142000" />
+      <workItem from="1562452832613" duration="83000" />
+      <workItem from="1562488986106" duration="1239000" />
+      <workItem from="1563035510005" duration="12791000" />
+      <workItem from="1563547816151" duration="1478000" />
+      <workItem from="1563809492179" duration="613000" />
+      <workItem from="1563887276458" duration="244000" />
+      <workItem from="1565347390132" duration="9044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75056000" />
+    <option name="totallyTimeSpent" value="104617000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,7 +551,7 @@
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28303152" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3212609" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -365,7 +559,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3281471" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -448,157 +642,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ClientApp/components/MessageBox/MessageBox.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/components/MessageBox/Gif/Gifs.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/store/modules/Chat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="6" selection-start-line="41" selection-start-column="3" selection-end-line="44" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/config/axios_interceptor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appsettings.Development.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-705" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Uploads/Images/904ef05a-6ea7-41ec-b517-abe314f8d3fd.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.vendor.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Services/CloudStorage/ICloudStorageService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <marker date="1551354302825" expanded="false" signature="6:168" ph="..." />
-            <marker date="1551354302825" expanded="true" signature="212:495" ph="{...}" />
-            <marker date="1551354302825" expanded="true" signature="256:493" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D871B247-2F61-41B1-B2C5-74368EB757F6/1f/00b44321/AmazonS3Client.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
-          <folding>
-            <element signature="e#317#944#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A315A376-1873-4D2D-88D5-C156B0F05BB6/8b/9e565e08/ServiceCollectionExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="e#424#591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B1894F59-867C-4729-8E08-ACB52994C75D/a9/43ef01cf/RegionEndpoint.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A315A376-1873-4D2D-88D5-C156B0F05BB6/21/f62c0662/AWSOptions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B1894F59-867C-4729-8E08-ACB52994C75D/85/22a0ab68/AWSCredentials.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/components/MessageBox/ReceivedMessageCard.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="89" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/components/MessageBox/Camera/CameraModal.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/components/MessageBox/MessageBoxFooter.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="77" column="41" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
-          <folding>
-            <element signature="e#1026#1067#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Features/DocumentsManager/Documents/Services/IDocumentService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <marker date="1551354302821" expanded="false" signature="6:239" ph="..." />
-            <marker date="1551354302821" expanded="true" signature="306:466" ph="{...}" />
-            <marker date="1551354302821" expanded="true" signature="346:464" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Features/Chat/Services/IChatService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <marker date="1551354302816" expanded="false" signature="6:135" ph="..." />
-            <marker date="1551354302816" expanded="true" signature="180:457" ph="{...}" />
-            <marker date="1551354302816" expanded="true" signature="215:455" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/VideoConverterTest.cs" />
     <entry file="file://$PROJECT_DIR$/TestProject1/UnitTest1.cs" />
     <entry file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.2/VueChatApp.AssemblyInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -641,38 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Features/AccessControl/Controllers/AccountsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <marker date="1551354302809" expanded="false" signature="6:506" ph="..." />
-            <marker date="1551354302809" expanded="true" signature="563:6021" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="646:6019" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="1081:1255" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="1409:2176" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="1455:2121" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="1528:1775" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="1937:2107" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="2293:3139" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="2339:3069" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="2475:2663" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="2754:2958" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="3305:3793" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="3363:3392" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="3487:3607" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="3919:4193" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="3959:4082" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="4246:5606" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="4299:4584" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="5076:5563" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="5265:5549" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="5678:6012" ph="{...}" />
-            <marker date="1551354302809" expanded="true" signature="5744:6001" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Services/CloudStorage/S3StorageService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -709,66 +720,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <marker date="1559580133440" expanded="false" signature="6:255" ph="..." />
-            <marker date="1559580133440" expanded="true" signature="277:803" ph="{...}" />
-            <marker date="1559580133440" expanded="true" signature="304:801" ph="{...}" />
-            <marker date="1559580133440" expanded="true" signature="400:473" ph="{...}" />
-            <marker date="1559580133440" expanded="true" signature="658:793" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Features/Chat/Controllers/ChatsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-          <folding>
-            <marker date="1551354302812" expanded="false" signature="6:283" ph="..." />
-            <marker date="1551354302812" expanded="true" signature="331:1822" ph="{...}" />
-            <marker date="1551354302812" expanded="true" signature="451:1820" ph="{...}" />
-            <marker date="1551354302812" expanded="true" signature="566:626" ph="{...}" />
-            <marker date="1551354302812" expanded="true" signature="724:907" ph="{...}" />
-            <marker date="1551354302812" expanded="true" signature="1053:1248" ph="{...}" />
-            <marker date="1551354302812" expanded="true" signature="1344:1487" ph="{...}" />
-            <marker date="1551354302812" expanded="true" signature="1654:1814" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Uploads/Videos/7f821286-7e23-4234-a727-d356f8d00af4c0b2335e-7a4b-4402-8387-b96e59c2ddf8+.mp4" />
-    <entry file="file://$PROJECT_DIR$/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="51" column="36" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="36" />
-          <folding>
-            <marker date="1561211292470" expanded="false" signature="6:896" ph="..." />
-            <marker date="1561211292470" expanded="true" signature="918:5188" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="945:5186" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="1004:1077" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="1300:4008" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="1936:2372" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="2506:2715" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="2747:3905" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="2842:3241" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="3300:3896" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="3346:3710" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="3563:3648" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="3761:3884" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="4196:5180" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="4243:4482" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="4399:4466" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="4499:4583" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="4692:4797" ph="{...}" />
-            <marker date="1561211292470" expanded="true" signature="4832:5168" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F513CD8-D728-40FE-862C-7BE9A368980E/c9/a9e1b31f/INodeServices.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -813,11 +765,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Utils/VideoConverter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="45">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
             <marker date="1561289021745" expanded="false" signature="6:165" ph="..." />
-            <marker date="1561289021745" expanded="true" signature="194:840" ph="{...}" />
             <marker date="1561289021745" expanded="true" signature="228:838" ph="{...}" />
             <marker date="1561289021745" expanded="true" signature="346:408" ph="{...}" />
             <marker date="1561289021745" expanded="true" signature="485:832" ph="{...}" />
@@ -879,10 +830,201 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Features/DocumentsManager/Documents/Models/DocumentResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <marker date="1551354302820" expanded="false" signature="6:113" ph="..." />
+            <marker date="1551354302820" expanded="true" signature="178:323" ph="{...}" />
+            <marker date="1551354302820" expanded="true" signature="212:321" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/VideoConverter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hubs/INotificationClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <marker date="1551354302822" expanded="false" signature="6:96" ph="..." />
+            <marker date="1551354302822" expanded="true" signature="123:281" ph="{...}" />
+            <marker date="1551354302822" expanded="true" signature="165:279" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/store/modules/Users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/config/axios_interceptor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/boot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/MessageBox/MessageBox.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1571C05F-E355-4EE9-BF63-E97B4EF6249D/2F/SymmetricSecurityKey.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Features/AccessControl/Entities/SystemUser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="16" column="70" selection-start-line="13" selection-start-column="8" selection-end-line="16" selection-end-column="70" />
+          <folding>
+            <marker date="1551354302810" expanded="false" signature="6:226" ph="..." />
+            <marker date="1551354302810" expanded="true" signature="280:640" ph="{...}" />
+            <marker date="1551354302810" expanded="true" signature="331:634" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Features/AccessControl/Controllers/AccountsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="81" column="58" lean-forward="true" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
+          <folding>
+            <marker date="1563550164642" expanded="false" signature="6:506" ph="..." />
+            <marker date="1563550164642" expanded="true" signature="563:6048" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="646:6046" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="1081:1255" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="1409:2176" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="1455:2121" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="1528:1775" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="1937:2107" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="2293:3139" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="2339:3069" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="2475:2663" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="2754:2958" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="3305:3793" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="3363:3392" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="3487:3607" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="3919:4220" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="3959:4082" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="4273:5633" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="4326:4611" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="5103:5590" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="5292:5576" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="5705:6039" ph="{...}" />
+            <marker date="1563550164642" expanded="true" signature="5771:6028" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Features/Chat/Entities/Chat.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="64" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="22" selection-end-column="64" />
+          <folding>
+            <marker date="1551354302813" expanded="false" signature="6:198" ph="..." />
+            <marker date="1551354302813" expanded="true" signature="243:813" ph="{...}" />
+            <marker date="1551354302813" expanded="true" signature="274:811" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Features/QrCode/IQrCodeGeneratorService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding>
+            <marker date="1565351273888" expanded="false" signature="6:43" ph="..." />
+            <marker date="1565351273888" expanded="true" signature="81:176" ph="{...}" />
+            <marker date="1565351273888" expanded="true" signature="128:174" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Features/Chat/Controllers/ChatsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <marker date="1551354302812" expanded="false" signature="6:283" ph="..." />
+            <marker date="1551354302812" expanded="true" signature="331:1822" ph="{...}" />
+            <marker date="1551354302812" expanded="true" signature="451:1820" ph="{...}" />
+            <marker date="1551354302812" expanded="true" signature="566:626" ph="{...}" />
+            <marker date="1551354302812" expanded="true" signature="724:907" ph="{...}" />
+            <marker date="1551354302812" expanded="true" signature="1053:1248" ph="{...}" />
+            <marker date="1551354302812" expanded="true" signature="1344:1487" ph="{...}" />
+            <marker date="1551354302812" expanded="true" signature="1654:1814" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Features/QrCode/Controllers/QrCodeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <marker date="1565352183309" expanded="true" signature="6:75" ph="..." />
+            <marker date="1565352183309" expanded="true" signature="125:609" ph="{...}" />
+            <marker date="1565352183309" expanded="true" signature="200:607" ph="{...}" />
+            <marker date="1565352183309" expanded="true" signature="343:407" ph="{...}" />
+            <marker date="1565352183309" expanded="true" signature="475:601" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Features/Chat/Services/IChatService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <marker date="1551354302816" expanded="false" signature="6:135" ph="..." />
+            <marker date="1551354302816" expanded="true" signature="180:457" ph="{...}" />
+            <marker date="1551354302816" expanded="true" signature="215:455" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Features/Chat/Services/ChatService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
+        <state relative-caret-position="135">
+          <caret line="61" column="111" selection-start-line="61" selection-start-column="90" selection-end-line="61" selection-end-column="111" />
           <folding>
             <marker date="1561292298485" expanded="false" signature="6:625" ph="..." />
             <marker date="1561292298485" expanded="true" signature="670:5893" ph="{...}" />
@@ -901,22 +1043,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Features/DocumentsManager/Documents/Models/DocumentResult.cs">
+    <entry file="file://$PROJECT_DIR$/Features/QrCode/QrCodeGeneratorService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="295">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
           <folding>
-            <marker date="1551354302820" expanded="false" signature="6:113" ph="..." />
-            <marker date="1551354302820" expanded="true" signature="178:323" ph="{...}" />
-            <marker date="1551354302820" expanded="true" signature="212:321" ph="{...}" />
+            <marker date="1565352491866" expanded="true" signature="6:120" ph="..." />
+            <marker date="1565352491866" expanded="true" signature="158:1541" ph="{...}" />
+            <marker date="1565352491866" expanded="true" signature="226:1539" ph="{...}" />
+            <marker date="1565352491866" expanded="true" signature="347:403" ph="{...}" />
+            <marker date="1565352491866" expanded="true" signature="449:1252" ph="{...}" />
+            <marker date="1565352491866" expanded="true" signature="1309:1533" ph="{...}" />
+            <marker date="1565352491866" expanded="true" signature="1380:1523" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/VideoConverter.js">
+    <entry file="file://$PROJECT_DIR$/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="93">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <marker date="1559580133440" expanded="false" signature="6:255" ph="..." />
+            <marker date="1559580133440" expanded="true" signature="277:803" ph="{...}" />
+            <marker date="1559580133440" expanded="true" signature="304:801" ph="{...}" />
+            <marker date="1559580133440" expanded="true" signature="400:473" ph="{...}" />
+            <marker date="1559580133440" expanded="true" signature="658:793" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/store/modules/Chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Features/QrCode/Entities/QrCode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+          <folding>
+            <marker date="1565350693660" expanded="false" signature="6:65" ph="..." />
+            <marker date="1565350693660" expanded="true" signature="112:457" ph="{...}" />
+            <marker date="1565350693660" expanded="true" signature="160:455" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/routers/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hubs/NotificationHub.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <marker date="1551354302823" expanded="false" signature="6:245" ph="..." />
+            <marker date="1551354302823" expanded="true" signature="272:2014" ph="{...}" />
+            <marker date="1551354302823" expanded="true" signature="350:2012" ph="{...}" />
+            <marker date="1551354302823" expanded="true" signature="598:662" ph="{...}" />
+            <marker date="1551354302823" expanded="true" signature="727:851" ph="{...}" />
+            <marker date="1551354302823" expanded="true" signature="901:995" ph="{...}" />
+            <marker date="1551354302823" expanded="true" signature="1065:1312" ph="{...}" />
+            <marker date="1551354302823" expanded="true" signature="1132:1246" ph="{...}" />
+            <marker date="1551354302823" expanded="true" signature="1351:2006" ph="{...}" />
+            <marker date="1551354302823" expanded="true" signature="1471:1744" ph="{...}" />
+            <marker date="1551354302823" expanded="true" signature="1800:1937" ph="{...}" />
+            <marker date="1551354302823" expanded="true" signature="1861:1922" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hubs/QrLoginHub.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="68" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="68" />
+          <folding>
+            <marker date="1565359108105" expanded="true" signature="6:113" ph="..." />
+            <marker date="1565359108105" expanded="true" signature="140:618" ph="{...}" />
+            <marker date="1565359108105" expanded="true" signature="174:616" ph="{...}" />
+            <marker date="1565359108105" expanded="true" signature="316:394" ph="{...}" />
+            <marker date="1565359108105" expanded="true" signature="431:601" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/ChatDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <marker date="1565350695542" expanded="false" signature="6:424" ph="..." />
+            <marker date="1565350695542" expanded="true" signature="451:845" ph="{...}" />
+            <marker date="1565350695542" expanded="true" signature="540:843" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+          <folding>
+            <marker date="1565360467578" expanded="false" signature="6:930" ph="..." />
+            <marker date="1565360467578" expanded="true" signature="952:5477" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="979:5475" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="1111:1205" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="1428:4240" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="2168:2604" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="2738:2947" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="2979:4137" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="3074:3473" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="3532:4128" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="3578:3942" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="3795:3880" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="3993:4116" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="4428:5469" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="4475:4714" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="4631:4698" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="4731:4815" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="4924:5086" ph="{...}" />
+            <marker date="1565360467578" expanded="true" signature="5121:5457" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/Auth/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/Auth/QrCodeLogin.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#126#151#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

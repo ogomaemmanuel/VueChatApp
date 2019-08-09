@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using VueChatApp.Features.AccessControl.Entities;
 using VueChatApp.Features.Chat.Entities;
 using VueChatApp.Features.DocumentsManager.Documents.Entities;
+using VueChatApp.Features.QrCode.Entities;
 
 namespace VueChatApp.Data
 {
@@ -16,5 +17,7 @@ namespace VueChatApp.Data
         public ChatDbContext(DbContextOptions<ChatDbContext> options) : base(options) => Database.EnsureCreated();
         public DbSet<ChatMessage> ChatMessages { get; set; }
         public DbSet<Document> Documents { get; set; }
+        
+        public DbSet<QrCode> QrCodes { get; set; }
     }
 }

@@ -20,6 +20,7 @@ using VueChatApp.Features.AccessControl.Entities;
 using VueChatApp.Features.Chat.Services;
 using VueChatApp.Features.Documents.Buckets.Services;
 using VueChatApp.Features.DocumentsManager.Documents.Services;
+using VueChatApp.Features.QrCode;
 using VueChatApp.Hubs;
 using VueChatApp.Services.CloudStorage;
 using VueChatApp.Utils;
@@ -28,10 +29,13 @@ namespace VueChatApp
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        private IHostingEnvironment _appEnv;
+
+        public Startup(IConfiguration configuration,IHostingEnvironment appEnv)
         {
             Configuration = configuration;
-         
+            _appEnv = appEnv;
+
         }
 
         public IConfiguration Configuration { get; }
@@ -42,12 +46,13 @@ namespace VueChatApp
 
             services.AddSignalR();
             services.AddScoped<VideoConverter>();
+            services.AddScoped<IQrCodeGeneratorService,QrCodeGeneratorService>();
             services.AddAWSService<IAmazonS3>();
             services.AddScoped<ICloudStorageService, S3StorageService>();
             services.AddScoped<IBucketService, BucketService>();
             services.AddScoped<IDocumentService, DocumentService>();
              services.AddDbContext<ChatDbContext>(options =>
-options.UseSqlite(@"Data Source=ChatTutorial.db"));
+options.UseSqlite($"Data Source={_appEnv.WebRootPath}/ChatTutorial.db"));
             services.AddHttpClient<IChatService, ChatService>();
             services.AddNodeServices();
             services.AddIdentity<SystemUser, AppRole>(options =>
@@ -123,6 +128,7 @@ options.UseSqlite(@"Data Source=ChatTutorial.db"));
             app.UseSignalR(routes =>
             {
                 routes.MapHub<NotificationHub>("/signalr/notification-hub");
+                routes.MapHub<QrLoginHub>("/login-hub");
             });
             app.UseMvc(routes =>
             {

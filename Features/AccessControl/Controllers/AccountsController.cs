@@ -110,7 +110,8 @@ namespace VueChatApp.Features.AccessControl.Controllers
                 throw new ApplicationException("A code must be supplied for password reset.");
             }
             var model = new ResetPasswordViewModel { Code = code };
-            return  View(model);
+            return null;
+            //return  View(model);
         }
 
         private  object BuildToken(SystemUser user)

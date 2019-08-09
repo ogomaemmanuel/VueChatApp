@@ -14,6 +14,9 @@
         <router-link to="/register">
             Register
         </router-link>
+        <router-link to="/qr-login">
+            QrCodeLogin
+        </router-link>
     </div>
 </div>
 </template>

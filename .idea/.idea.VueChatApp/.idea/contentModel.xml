@@ -6,6 +6,7 @@
     <e p="C:\Users\OMEN15\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="C:\Users\OMEN15\.Rider2018.3\config\javascript\nodejs\10.15.1\core-modules" t="IncludeRecursive" />
     <e p="C:\Users\OMEN15\.Rider2018.3\config\javascript\nodejs\10.15.1\node-typings\node_modules\@types" t="IncludeRecursive" />
+    <e p="C:\Users\OMEN15\.Rider2018.3\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\OMEN15\.Rider2018.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\OMEN15\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_VueChatApp.-14126327.00" t="ExcludeRecursive" />
     <e p="C:\Users\OMEN15\projects\personal_projects\VueChatApp" t="IncludeRecursive">
@@ -31,6 +32,7 @@
           <e p="App.vue" t="Include" />
           <e p="Auth" t="Include">
             <e p="Login.vue" t="Include" />
+            <e p="QrCodeLogin.vue" t="Include" />
             <e p="Register.vue" t="Include" />
           </e>
           <e p="ChatListFlyOut" t="Include">
@@ -217,10 +219,21 @@
             </e>
           </e>
         </e>
+        <e p="QrCode" t="Include">
+          <e p="Controllers" t="Include">
+            <e p="QrCodeController.cs" t="Include" />
+          </e>
+          <e p="Entities" t="Include">
+            <e p="QrCode.cs" t="Include" />
+          </e>
+          <e p="IQrCodeGeneratorService.cs" t="Include" />
+          <e p="QrCodeGeneratorService.cs" t="Include" />
+        </e>
       </e>
       <e p="Hubs" t="Include">
         <e p="INotificationClient.cs" t="Include" />
         <e p="NotificationHub.cs" t="Include" />
+        <e p="QrLoginHub.cs" t="Include" />
       </e>
       <e p="node_modules" t="ExcludeRecursive">
         <e p="@aspnet\signalr" t="IncludeRecursive" />
@@ -284,6 +297,7 @@
       <e p="Uploads" t="Include">
         <e p="images" t="Include">
           <e p="17949105-da56-494f-bfaf-4dbbc475e1e7.png" t="Include" />
+          <e p="17a8855d-97ae-4a3d-9b2e-47e865b899e3.png" t="Include" />
           <e p="20fcd0b6-31e8-412b-941c-13c29c7bbc96.png" t="Include" />
           <e p="24a71004-19a3-4ee4-8f5e-82ff09e19d8f.png" t="Include" />
           <e p="38d8fb6b-4efc-4bb7-be62-eaeea3d846b9.png" t="Include" />
@@ -296,6 +310,7 @@
           <e p="5453e6ad-0932-4eb2-87d0-7a2ab41fb31e.png" t="Include" />
           <e p="5de128d9-5042-4163-9766-347bd2878a28.png" t="Include" />
           <e p="5e9433bd-1de2-4cb7-851e-fbf6f768255b.png" t="Include" />
+          <e p="6de5a865-eda9-4b24-8416-910e4d09daa0.png" t="Include" />
           <e p="89a37813-d022-4296-887c-b680a2d0b0c2.png" t="Include" />
           <e p="8a3b31cd-672b-444d-8c40-37f419f2b058.png" t="Include" />
           <e p="8dc25f5a-0d8c-4be3-8046-d2990b752cf7.png" t="Include" />
@@ -305,18 +320,13 @@
           <e p="a25ac025-793e-45b0-87a9-d7e398817065.png" t="Include" />
           <e p="b923820b-026b-421b-9d01-fcb907392fe1.png" t="Include" />
           <e p="ba60adfa-fb8a-418b-bd38-dec368027e5f.png" t="Include" />
+          <e p="c0eab569-2a60-49c3-869d-21eeffcdfe0b.png" t="Include" />
           <e p="c4cd8c9b-c62c-4fe4-aac5-dd1659c16146.png" t="Include" />
           <e p="c872ddff-418f-4009-947b-ead742786496.png" t="Include" />
           <e p="dc76e605-d201-46ac-bcf2-87c046854804.png" t="Include" />
+          <e p="f1c60006-1e5d-4b81-aad6-83dd996bac3a.png" t="Include" />
         </e>
-        <e p="Videos" t="Include">
-          <e p="0fd7fdb7-620e-4946-9fe7-f9981abd6b77.mp4" t="Include" />
-          <e p="3a50a5ba-5071-4668-b99e-48a881c27b48.mp4" t="Include" />
-          <e p="3f71fec0-e60e-4372-92c9-d84183496cd8.mp4" t="Include" />
-          <e p="9d369108-56c9-4760-a691-8ecdec694c84.mp4" t="Include" />
-          <e p="a39e1b63-210f-47fd-9ca4-b5980194080a.mp4" t="Include" />
-          <e p="ff6c76aa-ef07-4d31-a90a-c954ca29e2c7.mp4" t="Include" />
-        </e>
+        <e p="Videos" t="Include" />
       </e>
       <e p="Utils" t="Include">
         <e p="VideoConverter.cs" t="Include" />
@@ -344,6 +354,7 @@
             <e p="beep.ogg" t="Include" />
           </e>
         </e>
+        <e p="ChatTutorial.db" t="Include" />
         <e p="dist" t="ExcludeRecursive">
           <e p="0.js" t="Include" />
           <e p="0.js.map" t="Include" />
@@ -383,6 +394,14 @@
           <e p="24.js.map" t="Include" />
           <e p="25.js" t="Include" />
           <e p="25.js.map" t="Include" />
+          <e p="26.js" t="Include" />
+          <e p="26.js.map" t="Include" />
+          <e p="27.js" t="Include" />
+          <e p="27.js.map" t="Include" />
+          <e p="28.js" t="Include" />
+          <e p="28.js.map" t="Include" />
+          <e p="29.js" t="Include" />
+          <e p="29.js.map" t="Include" />
           <e p="3.js" t="Include" />
           <e p="3.js.map" t="Include" />
           <e p="4.js" t="Include" />

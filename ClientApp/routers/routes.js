@@ -3,6 +3,7 @@ import Router from "vue-router"
 
 const LandingPage = () => import("../components/Home/LandingPage.vue")
 const Login = () => import("../components/Auth/Login.vue")
+const QrLogin = () => import("../components/Auth/QrCodeLogin")
 const Register = () => import("../components/Auth/Register.vue")
 const WebRtcComponent = () => import("../components/MessageBox/RealTime/WebRTCPeerConnection.vue")
 const PaymentMethods = () => import("../components/SetUp/PaymentMethods/PaymentMethods.vue")
@@ -13,6 +14,11 @@ const routes = new Router({
             path: "/",
             name: "login-page",
             component: Login
+        },
+        {
+            path: "/qr-login",
+            name: "qr-login-page",
+            component: QrLogin
         },
         {
             path: "/register",
