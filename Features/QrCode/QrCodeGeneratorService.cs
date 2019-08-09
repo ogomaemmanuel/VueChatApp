@@ -1,7 +1,9 @@
 using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 using QRCoder;
 using VueChatApp.Data;
 
@@ -16,11 +18,20 @@ namespace VueChatApp.Features.QrCode
             _dbContext = dbContext;
         }
 
-        public async Task<string> Generate()
+        public async Task<string> Generate(String connectionId)
         {
             QRCodeGenerator qrGenerator = new QRCodeGenerator();
+
+            var uniqueToken = Guid.NewGuid().ToString();
+            var tokenDict = new Dictionary<String,String>()
+            {
+                {"token",uniqueToken},
+                {"connectionId",connectionId}
+            };
+            
+           
             QRCodeData qrCodeData =
-                qrGenerator.CreateQrCode("The text which should be encoded.", QRCodeGenerator.ECCLevel.Q);
+                qrGenerator.CreateQrCode(JsonConvert.SerializeObject(tokenDict), QRCodeGenerator.ECCLevel.H);
             QRCode qrCode = new QRCode(qrCodeData);
             Bitmap qrCodeImage = qrCode.GetGraphic(20);
             var bitmapBytes = BitmapToBytes(qrCodeImage); //Convert bitmap into a byte array

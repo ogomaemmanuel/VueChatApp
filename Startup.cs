@@ -52,7 +52,7 @@ namespace VueChatApp
             services.AddScoped<IBucketService, BucketService>();
             services.AddScoped<IDocumentService, DocumentService>();
              services.AddDbContext<ChatDbContext>(options =>
-options.UseSqlite($"Data Source={_appEnv.WebRootPath}/ChatTutorial.db"));
+options.UseSqlite($"Data Source=ChatTutorial.db"));
             services.AddHttpClient<IChatService, ChatService>();
             services.AddNodeServices();
             services.AddIdentity<SystemUser, AppRole>(options =>

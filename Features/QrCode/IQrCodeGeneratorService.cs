@@ -5,6 +5,6 @@ namespace VueChatApp.Features.QrCode
 {
     public interface IQrCodeGeneratorService
     {
-        Task <String> Generate();
+        Task <String> Generate(String connetcionId);
     }
 }

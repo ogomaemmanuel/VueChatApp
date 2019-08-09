@@ -9,10 +9,13 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using VueChatApp.Features.AccessControl.Entities;
 using VueChatApp.Features.AccessControl.Models;
+using VueChatApp.Features.QrCode.Models;
+using VueChatApp.Hubs;
 
 namespace VueChatApp.Features.AccessControl.Controllers
 {
@@ -23,17 +26,20 @@ namespace VueChatApp.Features.AccessControl.Controllers
         private SignInManager<SystemUser> _signInManager;
         private RoleManager<AppRole> _roleManager;
         private IConfiguration _config;
+        private readonly IHubContext<QrLoginHub, IQrLoginClient> _loginHubContext;
         public AccountsController(UserManager<SystemUser> userManager,
           
            SignInManager<SystemUser> signInManager,
            RoleManager<AppRole> roleManager,
-           IConfiguration config
+           IConfiguration config,
+        IHubContext<QrLoginHub, IQrLoginClient> loginHubContext
             )
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
             _config = config;
+            _loginHubContext = loginHubContext;
         }
         // POST api/accounts
         [HttpPost("register")]
@@ -82,6 +88,18 @@ namespace VueChatApp.Features.AccessControl.Controllers
             return new BadRequestObjectResult(ModelState);
 
         }
+
+        [Authorize]
+        [HttpPost("web-qr-login")]
+        public async Task<IActionResult> QrCodeLogin([FromBody]QrCodeLoginModel loginModel)
+        {
+           var userId= this.User.FindFirstValue(ClaimTypes.NameIdentifier);
+           var user = await _userManager.FindByIdAsync(userId);
+           var token =  BuildToken(user);
+           await _loginHubContext.Clients.Client(loginModel.ConnectionId).AuthDetails(token);
+           return new OkResult();
+        }
+
 
         [HttpGet("confirm-email", Name = "ConfirmEmail")]
         [AllowAnonymous]

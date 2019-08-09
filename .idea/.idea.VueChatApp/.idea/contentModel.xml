@@ -156,6 +156,7 @@
       </e>
       <e p="Data" t="Include">
         <e p="ChatDbContext.cs" t="Include" />
+        <e p="ChatDbContextFactory.cs" t="Include" />
         <e p="NewFolder" t="Include" />
       </e>
       <e p="Dockerfile" t="Include" />
@@ -227,13 +228,22 @@
             <e p="QrCode.cs" t="Include" />
           </e>
           <e p="IQrCodeGeneratorService.cs" t="Include" />
+          <e p="Models" t="Include">
+            <e p="QrCodeLoginModel.cs" t="Include" />
+          </e>
           <e p="QrCodeGeneratorService.cs" t="Include" />
         </e>
       </e>
       <e p="Hubs" t="Include">
         <e p="INotificationClient.cs" t="Include" />
+        <e p="IQrLoginClient.cs" t="Include" />
         <e p="NotificationHub.cs" t="Include" />
         <e p="QrLoginHub.cs" t="Include" />
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20190809154623_Init.cs" t="Include" />
+        <e p="20190809154623_Init.Designer.cs" t="Include" />
+        <e p="ChatDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="node_modules" t="ExcludeRecursive">
         <e p="@aspnet\signalr" t="IncludeRecursive" />

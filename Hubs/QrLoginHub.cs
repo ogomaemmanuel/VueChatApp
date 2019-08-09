@@ -5,7 +5,7 @@ using VueChatApp.Features.QrCode;
 
 namespace VueChatApp.Hubs
 {
-    public class QrLoginHub:Hub
+    public class QrLoginHub:Hub<IQrLoginClient>
     {
         private IQrCodeGeneratorService _codeGeneratorService;
 
@@ -16,9 +16,8 @@ namespace VueChatApp.Hubs
 
         public async Task GetCode()
         {
-           var code= await _codeGeneratorService.Generate();
-
-           Clients.Client(Context.ConnectionId).SendAsync("LoginCode",code);
+           var code= await _codeGeneratorService.Generate(Context.ConnectionId);
+           Clients.Client(Context.ConnectionId).LoginCode(code);
           
         }
         

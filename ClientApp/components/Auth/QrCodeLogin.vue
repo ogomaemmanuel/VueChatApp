@@ -30,6 +30,11 @@
             });
             vm.connection.on("LoginCode", function (code) {
                 vm.qrCode = code;
+            }); 
+            vm.connection.on("AuthDetails", function (code) {
+                vm.$store.commit("SET_AUTH", code);
+                vm.$router.push("/home");
+                
             });
         }
 

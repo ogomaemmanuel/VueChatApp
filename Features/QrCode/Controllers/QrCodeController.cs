@@ -17,8 +17,8 @@ namespace VueChatApp.Features.QrCode.Controllers
         [HttpGet()]
         public async Task<IActionResult> get()
         {
-            String qrCode = await _codeGenerator.Generate();
-            return new ObjectResult(qrCode);
+          //  String qrCode = await _codeGenerator.Generate();
+            return new ObjectResult("");
         }
     }
 }
