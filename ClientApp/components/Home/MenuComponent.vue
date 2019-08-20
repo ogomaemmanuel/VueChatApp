@@ -26,7 +26,8 @@
 </template>
 
 <script>
-export default {
+    export default {
+        create() {},
   props: {
     nav: {
       type: Object,

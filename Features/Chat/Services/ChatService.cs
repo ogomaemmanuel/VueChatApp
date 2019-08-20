@@ -132,5 +132,14 @@ namespace VueChatApp.Features.Chat.Services
             var dataAsString = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<dynamic>(dataAsString);
         }
+        public async Task StartCall(WebRtcMessage webRtcMessage)
+        {
+           await this._hubContext.Clients.User(webRtcMessage.To.ToString()).WebRtcSignal(webRtcMessage);
+        }
+
+        public async Task AnswerCall(WebRtcMessage webRtcMessage)
+        {
+            await this._hubContext.Clients.User(webRtcMessage.To.ToString()).WebRtcSignal(webRtcMessage);
+        }
     }
 }

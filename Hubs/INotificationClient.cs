@@ -9,5 +9,15 @@ namespace VueChatApp.Hubs
     {
         Task MessageToUser(Object outgoingMessage);
         Task UpdatedUserList(Object onlineUsers);
+        Task WebRtcSignal(WebRtcMessage webRtcOffer);
+      
     }
+
+  public class WebRtcMessage
+  {
+      public String To { get; set; }
+      public String From { get; set; }
+      public String Type { get; set; }//can be offer, answer,candidate,hung-up
+      public Object Sdp { get; set; }
+  }
 }

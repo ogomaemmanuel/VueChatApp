@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using VueChatApp.Features.Chat.Models;
 using VueChatApp.Features.Chat.Services;
+using VueChatApp.Hubs;
 
 namespace VueChatApp.Features.Chat.Controllers
 {
@@ -50,5 +51,18 @@ namespace VueChatApp.Features.Chat.Controllers
                 this._chatService.SearchGifAsync(gifSearchQuery);
             return new OkObjectResult(gifs);
         }
+
+        public async Task<IActionResult> StartCall(WebRtcMessage webRtcMessage)
+        {
+            await _chatService.StartCall(webRtcMessage);
+            return Ok();
+        }
+        public async Task<IActionResult> AnswerCall(WebRtcMessage webRtcMessage)
+        {
+             await _chatService.AnswerCall(webRtcMessage);
+             return Ok();
+        }
+        
+        
     }
 }
