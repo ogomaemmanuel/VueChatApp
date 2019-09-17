@@ -19,10 +19,14 @@ namespace VueChatApp
         }
         private static IWebHostBuilder CreatWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>().UseKestrel(options =>
+                .UseStartup<Startup>().UseKestrel((builderContext, options) =>
                 {
-                    //TODO remove hard corded port
-                    options.ListenAnyIP(49615);
+                    options.Configure(builderContext.Configuration.GetSection("Kestrel"));
                 });
+//                .UseStartup<Startup>().UseKestrel(options =>
+//                {
+//                    //TODO remove hard corded port
+//                    options.ListenAnyIP(49615);
+//                });
     }
 }

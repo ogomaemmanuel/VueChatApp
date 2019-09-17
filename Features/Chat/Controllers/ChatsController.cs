@@ -17,22 +17,25 @@ namespace VueChatApp.Features.Chat.Controllers
     public class ChatsController : ControllerBase
     {
         private readonly IChatService _chatService;
+
         public ChatsController(IChatService chatService)
         {
             _chatService = chatService;
         }
+
         public async Task<IActionResult> Post(IncommingChatMessageViewModel chatMessageViewModel)
-        {
-            var sentMessage = await 
-                this._chatService.SendMessageAsync(chatMessageViewModel);
-            return new OkObjectResult(sentMessage);
-        }
-        [HttpPost("video-chat")]
-        public async Task<IActionResult> PostVideo([FromForm]IncommingChatMessageViewModel chatMessageViewModel)
         {
             var sentMessage = await
                 this._chatService.SendMessageAsync(chatMessageViewModel);
-            
+            return new OkObjectResult(sentMessage);
+        }
+
+        [HttpPost("video-chat")]
+        public async Task<IActionResult> PostVideo([FromForm] IncommingChatMessageViewModel chatMessageViewModel)
+        {
+            var sentMessage = await
+                this._chatService.SendMessageAsync(chatMessageViewModel);
+
             return new OkObjectResult(sentMessage);
         }
 
@@ -43,26 +46,28 @@ namespace VueChatApp.Features.Chat.Controllers
                 this._chatService.GetGifAsync();
             return new OkObjectResult(gifs);
         }
+
         [HttpGet("search", Name = "SearchGifs")]
         [AllowAnonymous]
-        public async Task<IActionResult> GifSearch([FromQuery]GifSearchQuery gifSearchQuery)
+        public async Task<IActionResult> GifSearch([FromQuery] GifSearchQuery gifSearchQuery)
         {
             var gifs = await
                 this._chatService.SearchGifAsync(gifSearchQuery);
             return new OkObjectResult(gifs);
         }
 
+        [HttpPost("start-video-call")]
         public async Task<IActionResult> StartCall(WebRtcMessage webRtcMessage)
         {
             await _chatService.StartCall(webRtcMessage);
             return Ok();
         }
+
+        [HttpPost("answer-video-call")]
         public async Task<IActionResult> AnswerCall(WebRtcMessage webRtcMessage)
         {
-             await _chatService.AnswerCall(webRtcMessage);
-             return Ok();
+            await _chatService.AnswerCall(webRtcMessage);
+            return Ok();
         }
-        
-        
     }
 }
