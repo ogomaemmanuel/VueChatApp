@@ -1,7 +1,8 @@
-const path = require("path")
-const webpack = require("webpack")
-const ExtractTextPlugin = require("extract-text-webpack-plugin")
-const bundleOutputDir = "./wwwroot/dist"
+const path = require("path");
+const webpack = require("webpack");
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const bundleOutputDir = "./wwwroot/dist";
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = env => {
   const isDevBuild = !(env && env.prod)
@@ -67,7 +68,7 @@ module.exports = env => {
             ]
           : [
               // Plugins that apply in production builds only
-              new webpack.optimize.UglifyJsPlugin(),
+              new UglifyJSPlugin(),
               new ExtractTextPlugin("site.css")
             ]
       )

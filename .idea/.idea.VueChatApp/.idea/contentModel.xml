@@ -262,6 +262,7 @@
         <e p="file-loader" t="IncludeRecursive" />
         <e p="font-awesome" t="IncludeRecursive" />
         <e p="isomorphic-fetch" t="IncludeRecursive" />
+        <e p="jquery" t="IncludeRecursive" />
         <e p="lodash" t="IncludeRecursive" />
         <e p="material-icons" t="IncludeRecursive" />
         <e p="node-sass" t="IncludeRecursive" />
