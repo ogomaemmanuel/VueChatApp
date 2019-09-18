@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b276efb9-93c9-40c5-84a9-bffe2d5128da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VueChatApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VueChatApp.csproj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/wwwroot/dist/" />
@@ -28,44 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Features/Chat/Services/ChatService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="114" column="95" selection-start-line="114" selection-start-column="95" selection-end-line="114" selection-end-column="95" />
-              <folding>
-                <marker date="1568807969977" expanded="false" signature="6:625" ph="..." />
-                <marker date="1568807969977" expanded="true" signature="670:6311" ph="{...}" />
-                <marker date="1568807969977" expanded="true" signature="716:6309" ph="{...}" />
-                <marker date="1568807969977" expanded="true" signature="1400:1671" ph="{...}" />
-                <marker date="1568807969977" expanded="true" signature="1805:5103" ph="{...}" />
-                <marker date="1568807969977" expanded="true" signature="1876:2137" ph="{...}" />
-                <marker date="1568807969977" expanded="true" signature="2198:4172" ph="{...}" />
-                <marker date="1568807969977" expanded="true" signature="2260:4156" ph="{...}" />
-                <marker date="1568807969977" expanded="true" signature="3086:3354" ph="{...}" />
-                <marker date="1568807969977" expanded="true" signature="3688:3831" ph="{...}" />
-                <marker date="1568807969977" expanded="true" signature="4366:4859" ph="{...}" />
-                <marker date="1568807969977" expanded="true" signature="5154:5465" ph="{...}" />
-                <marker date="1568807969977" expanded="true" signature="5547:5920" ph="{...}" />
-                <marker date="1568807969977" expanded="true" signature="5985:6110" ph="{...}" />
-                <marker date="1568807969977" expanded="true" signature="6177:6303" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-290">
-              <caret line="69" column="68" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
-              <folding>
-                <element signature="e#479#542#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClientApp/components/Products/Categories/CategoryList.vue">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,16 +63,30 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClientApp/routers/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+            <state relative-caret-position="202">
+              <caret line="74" column="89" selection-start-line="74" selection-start-column="89" selection-end-line="74" selection-end-column="89" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/components/Home/SideNav.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClientApp/components/Orders/OrderStatuses/OrderStatusItem.vue">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -206,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Services/CloudStorage/S3StorageService.cs" />
         <option value="$PROJECT_DIR$/ClientApp/components/MessageBox/Camera/Video.vue" />
         <option value="$PROJECT_DIR$/VideoConverterTest.cs" />
         <option value="$PROJECT_DIR$/Tests/VideoConverterTest.cs" />
@@ -254,9 +229,10 @@
         <option value="$PROJECT_DIR$/ClientApp/store/modules/Chat.js" />
         <option value="$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue" />
         <option value="$PROJECT_DIR$/ClientApp/components/Products/Categories/CategoryList.vue" />
-        <option value="$PROJECT_DIR$/ClientApp/routers/routes.js" />
         <option value="$PROJECT_DIR$/ClientApp/components/Orders/OrderList/OrderItem.vue" />
         <option value="$PROJECT_DIR$/ClientApp/components/Orders/OrderList/OrderItemList.vue" />
+        <option value="$PROJECT_DIR$/ClientApp/routers/routes.js" />
+        <option value="$PROJECT_DIR$/ClientApp/components/Home/SideNav.vue" />
       </list>
     </option>
   </component>
@@ -336,6 +312,13 @@
               <item name="VueChatApp" type="34e6ba20:FileSystemExplorerNode" />
               <item name="ClientApp" type="34e6ba20:FileSystemExplorerNode" />
               <item name="components" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Home" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="VueChatApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="ClientApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="components" type="34e6ba20:FileSystemExplorerNode" />
               <item name="Orders" type="34e6ba20:FileSystemExplorerNode" />
             </path>
             <path>
@@ -345,6 +328,14 @@
               <item name="components" type="34e6ba20:FileSystemExplorerNode" />
               <item name="Orders" type="34e6ba20:FileSystemExplorerNode" />
               <item name="OrderList" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="VueChatApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="ClientApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="components" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Orders" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="OrderStatuses" type="34e6ba20:FileSystemExplorerNode" />
             </path>
             <path>
               <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
@@ -465,12 +456,12 @@
       <workItem from="1567446984164" duration="2487000" />
       <workItem from="1568448320445" duration="281000" />
       <workItem from="1568448743864" duration="1192000" />
-      <workItem from="1568745378431" duration="20621000" />
+      <workItem from="1568745378431" duration="21600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153220000" />
+    <option name="totallyTimeSpent" value="154199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -589,34 +580,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Data/ChatDbContextFactory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
-          <folding>
-            <marker date="1565364747516" expanded="true" signature="6:80" ph="..." />
-            <marker date="1565364747516" expanded="true" signature="107:562" ph="{...}" />
-            <marker date="1565364747516" expanded="true" signature="248:560" ph="{...}" />
-            <marker date="1565364747516" expanded="true" signature="314:545" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Migrations/20190809154623_Init.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <marker date="1565365721068" expanded="false" signature="6:61" ph="..." />
-            <marker date="1565365721068" expanded="true" signature="94:1009" ph="{...}" />
-            <marker date="1565365721068" expanded="true" signature="138:1007" ph="{...}" />
-            <marker date="1565365721068" expanded="true" signature="214:814" ph="{...}" />
-            <marker date="1565365721068" expanded="true" signature="358:716" ph="{...}" />
-            <marker date="1565365721068" expanded="true" signature="887:1001" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Features/QrCode/IQrCodeGeneratorService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1147,13 +1110,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/routers/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+        <state relative-caret-position="202">
+          <caret line="74" column="89" selection-start-line="74" selection-start-column="89" selection-end-line="74" selection-end-column="89" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/Home/SideNav.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/Orders/OrderStatuses/OrderStatusItem.vue">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

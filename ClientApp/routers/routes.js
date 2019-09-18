@@ -74,6 +74,11 @@ const routes = new Router({
                     name: "order-list",
                     component: () => import("../components/Orders/OrderList/OrderItemList")
                 },
+                {
+                    path: "/order-statuses",
+                    name: "order-statuses",
+                    component: () => import("../components/Orders/OrderStatuses/OrderStatusList")
+                },
 
                 //Catalog Routes
                 {
