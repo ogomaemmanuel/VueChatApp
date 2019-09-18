@@ -63,11 +63,11 @@ export default {
     vm.connection.on("MessageToUser", function (incommingMessage) {
       vm.$store.dispatch("addChatMessage", incommingMessage);
       if (incommingMessage.fromId != vm.auth.userDetails.id) {
-        if (!vm.usersToChatWith.find(x => x.id == chatMessage.fromId)) {
+        if (!vm.usersToChatWith.find(x => x.id == incommingMessage.fromId)) {
           console.log("chat notification")
           // this.$noty.info("New version of the app is available!")
           Notification.success({
-            message: `You have a new message from ${chatMessage.fromUserName}`,
+            message: `You have a new message from ${incommingMessage.fromUserName}`,
             position: 'top-right',
             duration: 0,
             customClass: "custom-notification"
