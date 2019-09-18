@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace VueChatApp.Features.AccessControl.Entities
 {
-    public class AppRole : IdentityRole<int> {
+    public class AppRole : IdentityRole<long> {
       
 
     }

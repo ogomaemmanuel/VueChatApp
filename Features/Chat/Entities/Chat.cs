@@ -9,13 +9,15 @@ namespace VueChatApp.Features.Chat.Entities
 {
     public class ChatMessage
     {
-        public int Id { get; set; }
+        
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public long Id { get; set; }
         public string Message { get; set; }
         public string Type { get; set; }
-        public int ToId { get; set; }
+        public long ToId { get; set; }
         [ForeignKey("ToId")]
         public SystemUser To { get; set; }
-        public int FromId { get; set; }
+        public long FromId { get; set; }
         [ForeignKey("FromId")]
         public SystemUser From { get; set; }
         public DateTime? ReadAt { get; set; }

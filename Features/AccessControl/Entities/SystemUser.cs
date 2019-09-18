@@ -8,7 +8,7 @@ using VueChatApp.Features.Chat.Entities;
 
 namespace VueChatApp.Features.AccessControl.Entities
 {
-    public class SystemUser : IdentityUser<int> {
+    public class SystemUser : IdentityUser<long> {
         public string FirstName { get; set; }
         public string LastName { get; set; }
         [InverseProperty("From")]

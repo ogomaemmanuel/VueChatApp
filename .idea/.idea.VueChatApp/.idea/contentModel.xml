@@ -247,6 +247,7 @@
         <e p="aspnet-webpack" t="IncludeRecursive" />
         <e p="axios" t="IncludeRecursive" />
         <e p="babel-eslint" t="IncludeRecursive" />
+        <e p="bootstrap" t="IncludeRecursive" />
         <e p="bootstrap-vue" t="IncludeRecursive" />
         <e p="css-loader" t="IncludeRecursive" />
         <e p="element-ui" t="IncludeRecursive" />
@@ -270,6 +271,7 @@
         <e p="sass-loader" t="IncludeRecursive" />
         <e p="scss-loader" t="IncludeRecursive" />
         <e p="style-loader" t="IncludeRecursive" />
+        <e p="uglifyjs-webpack-plugin" t="IncludeRecursive" />
         <e p="url-loader" t="IncludeRecursive" />
         <e p="vue" t="IncludeRecursive" />
         <e p="vue-loader" t="IncludeRecursive" />
@@ -291,6 +293,140 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="Program.cs" t="Include" />
       <e p="README.md" t="Include" />
+      <e p="release" t="Include">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="AWSSDK.Core.dll" t="Include" />
+        <e p="AWSSDK.Extensions.NETCore.Setup.dll" t="Include" />
+        <e p="AWSSDK.S3.dll" t="Include" />
+        <e p="dotnet-aspnet-codegenerator-design.dll" t="Include" />
+        <e p="Microsoft.CodeAnalysis.CSharp.Workspaces.dll" t="Include" />
+        <e p="Microsoft.CodeAnalysis.Workspaces.dll" t="Include" />
+        <e p="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" t="Include" />
+        <e p="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" t="Include" />
+        <e p="Microsoft.VisualStudio.Web.CodeGeneration.dll" t="Include" />
+        <e p="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" t="Include" />
+        <e p="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" t="Include" />
+        <e p="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" t="Include" />
+        <e p="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" t="Include" />
+        <e p="Microsoft.Win32.SystemEvents.dll" t="Include" />
+        <e p="npm-shrinkwrap.json" t="Include" />
+        <e p="NuGet.Frameworks.dll" t="Include" />
+        <e p="package.json" t="Include" />
+        <e p="QRCoder.dll" t="Include" />
+        <e p="runtimes" t="Include">
+          <e p="unix" t="Include">
+            <e p="lib" t="Include">
+              <e p="netcoreapp2.0" t="Include">
+                <e p="System.Drawing.Common.dll" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="win" t="Include">
+            <e p="lib" t="Include">
+              <e p="netcoreapp2.0" t="Include">
+                <e p="Microsoft.Win32.SystemEvents.dll" t="Include" />
+                <e p="System.Drawing.Common.dll" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="System.Composition.AttributedModel.dll" t="Include" />
+        <e p="System.Composition.Convention.dll" t="Include" />
+        <e p="System.Composition.Hosting.dll" t="Include" />
+        <e p="System.Composition.Runtime.dll" t="Include" />
+        <e p="System.Composition.TypedParts.dll" t="Include" />
+        <e p="System.Drawing.Common.dll" t="Include" />
+        <e p="VueChatApp.deps.json" t="Include" />
+        <e p="VueChatApp.dll" t="Include" />
+        <e p="VueChatApp.pdb" t="Include" />
+        <e p="VueChatApp.runtimeconfig.json" t="Include" />
+        <e p="VueChatApp.Views.dll" t="Include" />
+        <e p="VueChatApp.Views.pdb" t="Include" />
+        <e p="web.config" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="assets" t="Include">
+            <e p="audio" t="Include">
+              <e p="beep.mp3" t="Include" />
+              <e p="beep.ogg" t="Include" />
+            </e>
+          </e>
+          <e p="ChatTutorial.db" t="Include" />
+          <e p="dist" t="Include">
+            <e p="0.js" t="Include" />
+            <e p="0.js.map" t="Include" />
+            <e p="1.js" t="Include" />
+            <e p="1.js.map" t="Include" />
+            <e p="10.js" t="Include" />
+            <e p="10.js.map" t="Include" />
+            <e p="11.js" t="Include" />
+            <e p="11.js.map" t="Include" />
+            <e p="12.js" t="Include" />
+            <e p="12.js.map" t="Include" />
+            <e p="13.js" t="Include" />
+            <e p="13.js.map" t="Include" />
+            <e p="14.js" t="Include" />
+            <e p="14.js.map" t="Include" />
+            <e p="15.js" t="Include" />
+            <e p="15.js.map" t="Include" />
+            <e p="16.js" t="Include" />
+            <e p="16.js.map" t="Include" />
+            <e p="17.js" t="Include" />
+            <e p="17.js.map" t="Include" />
+            <e p="18.js" t="Include" />
+            <e p="18.js.map" t="Include" />
+            <e p="19.js" t="Include" />
+            <e p="19.js.map" t="Include" />
+            <e p="2.js" t="Include" />
+            <e p="2.js.map" t="Include" />
+            <e p="20.js" t="Include" />
+            <e p="20.js.map" t="Include" />
+            <e p="21.js" t="Include" />
+            <e p="21.js.map" t="Include" />
+            <e p="22.js" t="Include" />
+            <e p="22.js.map" t="Include" />
+            <e p="23.js" t="Include" />
+            <e p="23.js.map" t="Include" />
+            <e p="24.js" t="Include" />
+            <e p="24.js.map" t="Include" />
+            <e p="25.js" t="Include" />
+            <e p="25.js.map" t="Include" />
+            <e p="26.js" t="Include" />
+            <e p="26.js.map" t="Include" />
+            <e p="27.js" t="Include" />
+            <e p="27.js.map" t="Include" />
+            <e p="28.js" t="Include" />
+            <e p="28.js.map" t="Include" />
+            <e p="29.js" t="Include" />
+            <e p="29.js.map" t="Include" />
+            <e p="3.js" t="Include" />
+            <e p="3.js.map" t="Include" />
+            <e p="4.js" t="Include" />
+            <e p="4.js.map" t="Include" />
+            <e p="5.js" t="Include" />
+            <e p="5.js.map" t="Include" />
+            <e p="6.js" t="Include" />
+            <e p="6.js.map" t="Include" />
+            <e p="674f50d287a8c48dc19ba404d20fe713.eot" t="Include" />
+            <e p="7.js" t="Include" />
+            <e p="7.js.map" t="Include" />
+            <e p="8.js" t="Include" />
+            <e p="8.js.map" t="Include" />
+            <e p="9.js" t="Include" />
+            <e p="9.js.map" t="Include" />
+            <e p="912ec66d7572ff821749319396470bde.svg" t="Include" />
+            <e p="b06871f281fee6b241d60582ae9369b9.ttf" t="Include" />
+            <e p="main.js" t="Include" />
+            <e p="main.js.map" t="Include" />
+            <e p="site.css" t="Include" />
+            <e p="vendor-manifest.json" t="Include" />
+            <e p="vendor.css" t="Include" />
+            <e p="vendor.js" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="vue-app-service-worker.js" t="Include" />
+        </e>
+      </e>
       <e p="Scripts" t="Include" />
       <e p="Services" t="Include">
         <e p="CloudStorage" t="Include">
@@ -383,7 +519,7 @@
           </e>
         </e>
         <e p="ChatTutorial.db" t="Include" />
-        <e p="dist" t="ExcludeRecursive">
+        <e p="dist" t="Include">
           <e p="0.js" t="Include" />
           <e p="0.js.map" t="Include" />
           <e p="1.js" t="Include" />
@@ -449,6 +585,7 @@
           <e p="b06871f281fee6b241d60582ae9369b9.ttf" t="Include" />
           <e p="main.js" t="Include" />
           <e p="main.js.map" t="Include" />
+          <e p="site.css" t="Include" />
           <e p="vendor-manifest.json" t="Include" />
           <e p="vendor.css" t="Include" />
           <e p="vendor.js" t="Include" />
