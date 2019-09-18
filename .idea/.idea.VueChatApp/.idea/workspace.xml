@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b276efb9-93c9-40c5-84a9-bffe2d5128da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/routers/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/routers/routes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/wwwroot/dist/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,13 +54,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="-290">
+              <caret line="69" column="68" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
               <folding>
                 <element signature="e#479#542#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/components/Products/Categories/CategoryList.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-195" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClientApp/routers/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="81" column="91" selection-start-line="81" selection-start-column="91" selection-end-line="81" selection-end-column="91" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,41 +131,6 @@
               <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Features/QrCode/Entities/QrCode.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <marker date="1568791720172" expanded="false" signature="6:65" ph="..." />
-                <marker date="1568791720172" expanded="true" signature="112:456" ph="{...}" />
-                <marker date="1568791720172" expanded="true" signature="160:454" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Features/Chat/Controllers/ChatsController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
-              <folding>
-                <marker date="1568448532669" expanded="false" signature="6:306" ph="..." />
-                <marker date="1568448532669" expanded="true" signature="354:2285" ph="{...}" />
-                <marker date="1568448532669" expanded="true" signature="474:2283" ph="{...}" />
-                <marker date="1568448532669" expanded="true" signature="590:650" ph="{...}" />
-                <marker date="1568448532669" expanded="true" signature="749:931" ph="{...}" />
-                <marker date="1568448532669" expanded="true" signature="1079:1262" ph="{...}" />
-                <marker date="1568448532669" expanded="true" signature="1358:1501" ph="{...}" />
-                <marker date="1568448532669" expanded="true" signature="1670:1830" ph="{...}" />
-                <marker date="1568448532669" expanded="true" signature="1950:2052" ph="{...}" />
-                <marker date="1568448532669" expanded="true" signature="2174:2277" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -257,7 +241,6 @@
         <option value="$PROJECT_DIR$/Utils/VideoConverter.js" />
         <option value="$PROJECT_DIR$/Features/QrCode/IQrCodeGenerator.cs" />
         <option value="$PROJECT_DIR$/Features/QrCode/QrCodeGenerator.cs" />
-        <option value="$PROJECT_DIR$/ClientApp/routers/routes.js" />
         <option value="$PROJECT_DIR$/ClientApp/components/Auth/Login.vue" />
         <option value="$PROJECT_DIR$/Data/ChatDbContextFactory.cs" />
         <option value="$PROJECT_DIR$/Migrations/20190809154623_Init.cs" />
@@ -292,6 +275,7 @@
         <option value="$PROJECT_DIR$/Features/Chat/Services/ChatService.cs" />
         <option value="$PROJECT_DIR$/ClientApp/store/modules/Chat.js" />
         <option value="$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue" />
+        <option value="$PROJECT_DIR$/ClientApp/routers/routes.js" />
       </list>
     </option>
   </component>
@@ -377,14 +361,28 @@
               <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
               <item name="VueChatApp" type="34e6ba20:FileSystemExplorerNode" />
               <item name="ClientApp" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="store" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="components" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Products" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="VueChatApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="ClientApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="components" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Products" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Categories" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="VueChatApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="ClientApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="routers" type="34e6ba20:FileSystemExplorerNode" />
             </path>
             <path>
               <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
               <item name="VueChatApp" type="34e6ba20:FileSystemExplorerNode" />
               <item name="ClientApp" type="34e6ba20:FileSystemExplorerNode" />
               <item name="store" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="modules" type="34e6ba20:FileSystemExplorerNode" />
             </path>
             <path>
               <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
@@ -493,12 +491,12 @@
       <workItem from="1567446984164" duration="2487000" />
       <workItem from="1568448320445" duration="281000" />
       <workItem from="1568448743864" duration="1192000" />
-      <workItem from="1568745378431" duration="16840000" />
+      <workItem from="1568745378431" duration="18221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149439000" />
+    <option name="totallyTimeSpent" value="150820000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -511,8 +509,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35479543" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35479543" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -520,7 +519,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3281471" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3281471" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -531,7 +530,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32956153" />
       <window_info anchor="bottom" id="REST Client" order="12" weight="0.61103255" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.3281471" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="15" weight="0.44554454" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -616,13 +615,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Utils/VideoConverter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/config/axios_interceptor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -656,16 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/routers/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,10 +1174,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        <state relative-caret-position="-290">
+          <caret line="69" column="68" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
           <folding>
             <element signature="e#479#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/Products/Categories/CategoryList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/routers/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="81" column="91" selection-start-line="81" selection-start-column="91" selection-end-line="81" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>

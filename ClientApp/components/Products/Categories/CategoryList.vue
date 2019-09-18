@@ -35,7 +35,7 @@
 
 <script>
 import ProductCategory from "./Category";
-import Paginator from "../../../Paginator";
+import Paginator from "../../common/Paginator";
 import CategoryCreate from "./CategoryCreate";
 export default {
   components: {

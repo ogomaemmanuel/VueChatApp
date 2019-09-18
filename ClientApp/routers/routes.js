@@ -75,6 +75,12 @@ const routes = new Router({
                     name: "product-list",
                     component:()=> import("../components/Products/ProductList")
                 },
+
+                {
+                    path: "/category-list",
+                    name: "category-list",
+                    component:()=> import("../components/Products/Categories/CategoryList")
+                },
                 //Users routes
                 {
                     path: "/user-list",
