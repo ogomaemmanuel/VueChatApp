@@ -68,6 +68,12 @@ const routes = new Router({
                     component: () => import("../components/SetUp/CountriesStatesZones/Zones/ZoneList")
 
                 },
+                //Orders routes
+                {
+                    path: "/order-list",
+                    name: "order-list",
+                    component: () => import("../components/Orders/OrderList/OrderItemList")
+                },
 
                 //Catalog Routes
                 {

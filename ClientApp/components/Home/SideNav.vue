@@ -48,7 +48,7 @@ export default {
             {
               text: "Order List",
               icon: "el-icon-menu menu-icon",
-              path: "/order_list"
+              path: "/order-list"
             },
             {
               text: "Order Status",

@@ -70,8 +70,13 @@
             <e p="SentMessageCard.vue" t="Include" />
           </e>
           <e p="Orders" t="Include">
-            <e p="OrderList" t="Include" />
+            <e p="OrderList" t="Include">
+              <e p="OrderItem.vue" t="Include" />
+              <e p="OrderItemList.vue" t="Include" />
+            </e>
             <e p="OrderStatuses" t="Include" />
+            <e p="PaymentTransaction" t="Include" />
+            <e p="Statistics" t="Include" />
           </e>
           <e p="Products" t="Include">
             <e p="Categories" t="Include">
@@ -580,6 +585,8 @@
           <e p="32.js.map" t="Include" />
           <e p="33.js" t="Include" />
           <e p="33.js.map" t="Include" />
+          <e p="34.js" t="Include" />
+          <e p="34.js.map" t="Include" />
           <e p="4.js" t="Include" />
           <e p="4.js.map" t="Include" />
           <e p="5.js" t="Include" />

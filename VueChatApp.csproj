@@ -25,7 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ClientApp\components\Orders\OrderList" />
     <Folder Include="ClientApp\components\Orders\OrderStatuses" />
     <Folder Include="ClientApp\components\Orders\PaymentTransaction" />
     <Folder Include="ClientApp\components\Orders\Statistics" />
