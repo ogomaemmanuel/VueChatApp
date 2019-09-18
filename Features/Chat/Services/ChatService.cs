@@ -111,8 +111,8 @@ namespace VueChatApp.Features.Chat.Services
                 ToUserName = incommingChatMessageViewModel.To.UserName,
                 Type= incommingChatMessageViewModel.Type,
             };
-            await this._hubContext.Clients
-                .User(incommingChatMessageViewModel.To.Id.ToString())
+            await this._hubContext.Clients.Users(
+                incommingChatMessageViewModel.To.Id.ToString(),outGoingMessage.FromId.ToString())
                 .MessageToUser(outGoingMessage);
             return outGoingMessage;
         }

@@ -41,7 +41,7 @@ const actions = {
   sendChatMessage ({ dispatch, commit }, outGoingMessage) {
     axios.post(`/api/chats`, outGoingMessage).then(({ data }) => {
       commit("SET_MESSAGE_HAS_BEEN_SENT")
-      dispatch("addChatMessage", data)
+     // dispatch("addChatMessage", data)
     })
   },
 
