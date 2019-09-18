@@ -40,6 +40,10 @@ export default {
   computed: {
     auth () {
       return this.$store.getters.auth
+    },
+    usersToChatWith() {
+      // ToDo get online users from store
+      return this.$store.getters.usersToChatWith
     }
   },
   created () {
@@ -56,7 +60,19 @@ export default {
       vm.users = users.filter(user => user.id !== vm.auth.userDetails.id)
     })
     vm.connection.on("MessageToUser", function (incommingMessage) {
-      vm.$store.dispatch("addChatMessage", incommingMessage)
+      vm.$store.dispatch("addChatMessage", incommingMessage);
+      if (incommingMessage.fromId != vm.auth.userDetails.id) {
+        if (!vm.usersToChatWith.find(x => x.id == chatMessage.fromId)) {
+          console.log("chat notification")
+          // this.$noty.info("New version of the app is available!")
+          Notification.success({
+            message: `You have a new message from ${chatMessage.fromUserName}`,
+            position: 'top-right',
+            duration: 0,
+            customClass: "custom-notification"
+          });
+        }
+      }
     })
   },
   methods: {

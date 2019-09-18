@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b276efb9-93c9-40c5-84a9-bffe2d5128da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Features/Chat/Services/ChatService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Chat/Services/ChatService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/wwwroot/dist/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,63 +28,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Features/Chat/Services/ChatService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="113" column="50" lean-forward="true" selection-start-line="113" selection-start-column="50" selection-end-line="113" selection-end-column="50" />
+            <state relative-caret-position="196">
+              <caret line="114" column="95" selection-start-line="114" selection-start-column="95" selection-end-line="114" selection-end-column="95" />
               <folding>
-                <marker date="1568807928184" expanded="false" signature="6:625" ph="..." />
-                <marker date="1568807928184" expanded="true" signature="670:6278" ph="{...}" />
-                <marker date="1568807928184" expanded="true" signature="716:6276" ph="{...}" />
-                <marker date="1568807928184" expanded="true" signature="1400:1671" ph="{...}" />
-                <marker date="1568807928184" expanded="true" signature="1805:5070" ph="{...}" />
-                <marker date="1568807928184" expanded="true" signature="1876:2137" ph="{...}" />
-                <marker date="1568807928184" expanded="true" signature="2198:4172" ph="{...}" />
-                <marker date="1568807928184" expanded="true" signature="2260:4156" ph="{...}" />
-                <marker date="1568807928184" expanded="true" signature="3086:3354" ph="{...}" />
-                <marker date="1568807928184" expanded="true" signature="3688:3831" ph="{...}" />
-                <marker date="1568807928184" expanded="true" signature="4366:4859" ph="{...}" />
-                <marker date="1568807928184" expanded="true" signature="5121:5432" ph="{...}" />
-                <marker date="1568807928184" expanded="true" signature="5514:5887" ph="{...}" />
-                <marker date="1568807928184" expanded="true" signature="5952:6077" ph="{...}" />
-                <marker date="1568807928184" expanded="true" signature="6144:6270" ph="{...}" />
+                <marker date="1568807969977" expanded="false" signature="6:625" ph="..." />
+                <marker date="1568807969977" expanded="true" signature="670:6311" ph="{...}" />
+                <marker date="1568807969977" expanded="true" signature="716:6309" ph="{...}" />
+                <marker date="1568807969977" expanded="true" signature="1400:1671" ph="{...}" />
+                <marker date="1568807969977" expanded="true" signature="1805:5103" ph="{...}" />
+                <marker date="1568807969977" expanded="true" signature="1876:2137" ph="{...}" />
+                <marker date="1568807969977" expanded="true" signature="2198:4172" ph="{...}" />
+                <marker date="1568807969977" expanded="true" signature="2260:4156" ph="{...}" />
+                <marker date="1568807969977" expanded="true" signature="3086:3354" ph="{...}" />
+                <marker date="1568807969977" expanded="true" signature="3688:3831" ph="{...}" />
+                <marker date="1568807969977" expanded="true" signature="4366:4859" ph="{...}" />
+                <marker date="1568807969977" expanded="true" signature="5154:5465" ph="{...}" />
+                <marker date="1568807969977" expanded="true" signature="5547:5920" ph="{...}" />
+                <marker date="1568807969977" expanded="true" signature="5985:6110" ph="{...}" />
+                <marker date="1568807969977" expanded="true" signature="6177:6303" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+              <folding>
+                <element signature="e#479#542#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Features/AccessControl/Controllers/AccountsController.cs">
+        <entry file="file://$PROJECT_DIR$/ClientApp/store/modules/Chat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="97" column="41" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="41" />
-              <folding>
-                <marker date="1565384360690" expanded="false" signature="6:606" ph="..." />
-                <marker date="1565384360690" expanded="true" signature="663:6823" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="746:6821" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="1329:1551" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="1705:2472" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="1751:2417" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="1824:2071" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="2233:2403" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="2589:3435" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="2635:3365" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="2771:2959" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="3050:3254" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="3583:3913" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="4080:4568" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="4138:4167" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="4262:4382" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="4694:4995" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="4734:4857" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="5048:6408" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="5101:5386" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="5878:6365" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="6067:6351" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="6480:6814" ph="{...}" />
-                <marker date="1565384360690" expanded="true" signature="6546:6803" ph="{...}" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -98,28 +85,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Features/Chat/Entities/Chat.cs">
+        <entry file="file://$PROJECT_DIR$/ClientApp/components/Auth/Login.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="270">
+              <caret line="36" column="48" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/components/Auth/QrCodeLogin.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
               <folding>
-                <marker date="1568789923057" expanded="false" signature="6:198" ph="..." />
-                <marker date="1568789923057" expanded="true" signature="243:887" ph="{...}" />
-                <marker date="1568789923057" expanded="true" signature="274:885" ph="{...}" />
+                <element signature="e#196#221#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Features/DocumentsManager/Documents/Entities/Document.cs">
+        <entry file="file://$PROJECT_DIR$/ClientApp/store/modules/Users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+            <state relative-caret-position="142">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
-                <marker date="1568791571884" expanded="false" signature="6:148" ph="..." />
-                <marker date="1568791571884" expanded="true" signature="215:526" ph="{...}" />
-                <marker date="1568791571884" expanded="true" signature="243:524" ph="{...}" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,46 +127,6 @@
                 <marker date="1568791720172" expanded="true" signature="112:456" ph="{...}" />
                 <marker date="1568791720172" expanded="true" signature="160:454" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Startup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="56" column="69" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
-              <folding>
-                <marker date="1568792122910" expanded="false" signature="6:985" ph="..." />
-                <marker date="1568792122910" expanded="true" signature="1007:6265" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="1034:6263" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="1167:1260" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="1483:5030" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="2107:2389" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="2579:3051" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="3190:3415" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="3457:4915" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="3582:4061" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="4140:4896" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="4196:4650" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="4453:4568" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="4711:4874" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="5218:6257" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="5265:5504" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="5421:5488" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="5521:5605" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="5714:5876" ph="{...}" />
-                <marker date="1568792122910" expanded="true" signature="5911:6245" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appsettings.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -289,8 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ClientApp/components/common/Chip.vue" />
-        <option value="$PROJECT_DIR$/ClientApp/components/Products/ProductCreate.vue" />
         <option value="$PROJECT_DIR$/ClientApp/components/Products/Product.vue" />
         <option value="$PROJECT_DIR$/ClientApp/components/Products/ProductList.vue" />
         <option value="$PROJECT_DIR$/ClientApp/components/MessageBox/MessageBoxFooter.vue" />
@@ -340,6 +290,8 @@
         <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/appsettings.Development.json" />
         <option value="$PROJECT_DIR$/Features/Chat/Services/ChatService.cs" />
+        <option value="$PROJECT_DIR$/ClientApp/store/modules/Chat.js" />
+        <option value="$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue" />
       </list>
     </option>
   </component>
@@ -402,6 +354,37 @@
             <path>
               <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
               <item name="VueChatApp" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="VueChatApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="ClientApp" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="VueChatApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="ClientApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="components" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="VueChatApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="ClientApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="components" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Auth" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="VueChatApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="ClientApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="store" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="VueChatApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="ClientApp" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="store" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="modules" type="34e6ba20:FileSystemExplorerNode" />
             </path>
             <path>
               <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
@@ -510,12 +493,12 @@
       <workItem from="1567446984164" duration="2487000" />
       <workItem from="1568448320445" duration="281000" />
       <workItem from="1568448743864" duration="1192000" />
-      <workItem from="1568745378431" duration="14371000" />
+      <workItem from="1568745378431" duration="15956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146970000" />
+    <option name="totallyTimeSpent" value="148555000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -677,20 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/store/modules/Chat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/routers/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -773,39 +742,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/components/Auth/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hubs/IQrLoginClient.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="24" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="24" />
           <folding>
             <marker date="1565375396799" expanded="true" signature="94:238" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/components/Auth/QrCodeLogin.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <element signature="e#196#221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/store/modules/Users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1134,13 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appsettings.Development.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appsettings.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1193,24 +1128,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Features/Chat/Services/ChatService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="113" column="50" lean-forward="true" selection-start-line="113" selection-start-column="50" selection-end-line="113" selection-end-column="50" />
+        <state relative-caret-position="196">
+          <caret line="114" column="95" selection-start-line="114" selection-start-column="95" selection-end-line="114" selection-end-column="95" />
           <folding>
-            <marker date="1568807928184" expanded="false" signature="6:625" ph="..." />
-            <marker date="1568807928184" expanded="true" signature="670:6278" ph="{...}" />
-            <marker date="1568807928184" expanded="true" signature="716:6276" ph="{...}" />
-            <marker date="1568807928184" expanded="true" signature="1400:1671" ph="{...}" />
-            <marker date="1568807928184" expanded="true" signature="1805:5070" ph="{...}" />
-            <marker date="1568807928184" expanded="true" signature="1876:2137" ph="{...}" />
-            <marker date="1568807928184" expanded="true" signature="2198:4172" ph="{...}" />
-            <marker date="1568807928184" expanded="true" signature="2260:4156" ph="{...}" />
-            <marker date="1568807928184" expanded="true" signature="3086:3354" ph="{...}" />
-            <marker date="1568807928184" expanded="true" signature="3688:3831" ph="{...}" />
-            <marker date="1568807928184" expanded="true" signature="4366:4859" ph="{...}" />
-            <marker date="1568807928184" expanded="true" signature="5121:5432" ph="{...}" />
-            <marker date="1568807928184" expanded="true" signature="5514:5887" ph="{...}" />
-            <marker date="1568807928184" expanded="true" signature="5952:6077" ph="{...}" />
-            <marker date="1568807928184" expanded="true" signature="6144:6270" ph="{...}" />
+            <marker date="1568807969977" expanded="false" signature="6:625" ph="..." />
+            <marker date="1568807969977" expanded="true" signature="670:6311" ph="{...}" />
+            <marker date="1568807969977" expanded="true" signature="716:6309" ph="{...}" />
+            <marker date="1568807969977" expanded="true" signature="1400:1671" ph="{...}" />
+            <marker date="1568807969977" expanded="true" signature="1805:5103" ph="{...}" />
+            <marker date="1568807969977" expanded="true" signature="1876:2137" ph="{...}" />
+            <marker date="1568807969977" expanded="true" signature="2198:4172" ph="{...}" />
+            <marker date="1568807969977" expanded="true" signature="2260:4156" ph="{...}" />
+            <marker date="1568807969977" expanded="true" signature="3086:3354" ph="{...}" />
+            <marker date="1568807969977" expanded="true" signature="3688:3831" ph="{...}" />
+            <marker date="1568807969977" expanded="true" signature="4366:4859" ph="{...}" />
+            <marker date="1568807969977" expanded="true" signature="5154:5465" ph="{...}" />
+            <marker date="1568807969977" expanded="true" signature="5547:5920" ph="{...}" />
+            <marker date="1568807969977" expanded="true" signature="5985:6110" ph="{...}" />
+            <marker date="1568807969977" expanded="true" signature="6177:6303" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/store/modules/Chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/Auth/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/Auth/QrCodeLogin.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="e#196#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/store/modules/Users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+          <folding>
+            <element signature="e#479#542#0" expanded="true" />
           </folding>
         </state>
       </provider>
