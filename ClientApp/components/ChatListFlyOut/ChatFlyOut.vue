@@ -24,6 +24,7 @@ import ChatFlyOutSearchInput from "./ChatFlyOutSearchInput.vue"
 import ChatFlyOutHeader from "./ChatFlyOutHeader.vue"
 import ChatUserCard from "./ChatUserCard.vue"
 import * as SignalR from "@aspnet/signalr"
+import {Notification} from "element-ui"
 export default {
   components: {
     ChatFlyOutSearchInput,
