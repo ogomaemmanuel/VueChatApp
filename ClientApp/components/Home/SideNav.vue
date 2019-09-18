@@ -53,7 +53,7 @@ export default {
             {
               text: "Order Status",
               icon: "el-icon-menu menu-icon",
-              path: "/order_statuses"
+              path: "/order-statuses"
             },
             {
               text: "Statistics",
