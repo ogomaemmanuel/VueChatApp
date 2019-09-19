@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b276efb9-93c9-40c5-84a9-bffe2d5128da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/routers/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/routers/routes.js" afterDir="false" />
-    </list>
+    <list default="true" id="b276efb9-93c9-40c5-84a9-bffe2d5128da" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/wwwroot/dist/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -460,12 +456,12 @@
       <workItem from="1568448320445" duration="281000" />
       <workItem from="1568448743864" duration="1192000" />
       <workItem from="1568745378431" duration="25251000" />
-      <workItem from="1568872795217" duration="4384000" />
+      <workItem from="1568872795217" duration="4708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162234000" />
+    <option name="totallyTimeSpent" value="162558000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,7 +474,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36016098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
