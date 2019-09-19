@@ -111,14 +111,14 @@ const routes = new Router({
                     component: () => import("../components/Users/UserCreate")
                 },
                 {
-                    path: "/permission_list",
-                    name: "permission_list",
+                    path: "/permission-list",
+                    name: "permission-list",
                     component: () => import("../components/Users/Permissions/PermissionList")
 
                 },
                 {
-                    path: "/role_list",
-                    name: "role_list",
+                    path: "/role-list",
+                    name: "role-list",
                     component: () => import("../components/Users/Roles/RoleList")
                 },
             ]

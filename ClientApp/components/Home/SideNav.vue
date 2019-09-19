@@ -125,11 +125,11 @@ export default {
             },
             {
               text: "Roles",
-              path: "/role_list"
+              path: "/role-list"
             },
             {
               text: "Permission",
-              path: "/permission_list"
+              path: "/permission-list"
             }
           ]
         },

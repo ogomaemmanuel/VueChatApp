@@ -26,7 +26,6 @@
 
   <ItemGroup>
     <Folder Include="ClientApp\components\Orders\PaymentTransaction" />
-    <Folder Include="ClientApp\components\Orders\Statistics" />
     <Folder Include="ClientApp\css\" />
     <Folder Include="Data\NewFolder\" />
     <Folder Include="Features\AccessControl\Services\" />
