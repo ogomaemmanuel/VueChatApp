@@ -85,6 +85,13 @@ const routes = new Router({
                     component: () => import("../components/Orders/Statistics/StatisticItemList")
                 },
 
+                {
+                    path: "/payment-transaction",
+                    name: "payment-transaction",
+                    component: ()=>import("../components/Orders/PaymentTransaction/PaymentTransactionList")
+                        
+                },
+
                 //Catalog Routes
                 {
                     path: "/product-list",

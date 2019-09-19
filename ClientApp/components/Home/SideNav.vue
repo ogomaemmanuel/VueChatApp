@@ -38,7 +38,7 @@ export default {
       menus: [
         {
           text: "Dashboard",
-          icon: "fa fa-table",
+          icon: "fa fa-dashboard",
           children: []
         },
         {
@@ -69,7 +69,7 @@ export default {
         },
         {
           text: "Catalog",
-          icon: "fa fa-building",
+          icon: "fa fa-tags",
           children: [
             {
               text: "Products",

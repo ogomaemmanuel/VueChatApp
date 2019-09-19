@@ -78,7 +78,10 @@
               <e p="OrderStatusItem.vue" t="Include" />
               <e p="OrderStatusList.vue" t="Include" />
             </e>
-            <e p="PaymentTransaction" t="Include" />
+            <e p="PaymentTransaction" t="Include">
+              <e p="PaymentTransactionItem.vue" t="Include" />
+              <e p="PaymentTransactionList.vue" t="Include" />
+            </e>
             <e p="Statistics" t="Include">
               <e p="BestSellerItem.vue" t="Include" />
               <e p="BestSellerItemList.vue" t="Include" />
