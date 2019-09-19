@@ -134,7 +134,8 @@ const routes = new Router({
                     component: () => import("../components/Users/Roles/RoleList")
                 },
             ]
-        }
+        },
+        { path: '*', redirect: '/home' }
     ],
     mode: "history"
 })

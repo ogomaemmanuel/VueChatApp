@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b276efb9-93c9-40c5-84a9-bffe2d5128da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ClientApp/components/Orders/PaymentTransaction/PaymentTransactionItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/components/Orders/PaymentTransaction/PaymentTransactionList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/components/Home/SideNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/components/Home/SideNav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VueChatApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VueChatApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/routers/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/routers/routes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/wwwroot/dist/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ClientApp/routers/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="85" column="18" lean-forward="true" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+            <state relative-caret-position="250">
+              <caret line="137" column="37" selection-start-line="137" selection-start-column="37" selection-end-line="137" selection-end-column="37" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -250,10 +247,10 @@
         <option value="$PROJECT_DIR$/ClientApp/components/Orders/Statistics/BestSellerItemList.vue" />
         <option value="$PROJECT_DIR$/ClientApp/components/Orders/Statistics/StatisticItem.vue" />
         <option value="$PROJECT_DIR$/ClientApp/components/Orders/Statistics/StatisticItemList.vue" />
-        <option value="$PROJECT_DIR$/ClientApp/routers/routes.js" />
         <option value="$PROJECT_DIR$/ClientApp/components/Home/SideNav.vue" />
         <option value="$PROJECT_DIR$/ClientApp/components/Orders/PaymentTransaction/PaymentTransactionItem.vue" />
         <option value="$PROJECT_DIR$/ClientApp/components/Orders/PaymentTransaction/PaymentTransactionList.vue" />
+        <option value="$PROJECT_DIR$/ClientApp/routers/routes.js" />
       </list>
     </option>
   </component>
@@ -463,12 +460,12 @@
       <workItem from="1568448320445" duration="281000" />
       <workItem from="1568448743864" duration="1192000" />
       <workItem from="1568745378431" duration="25251000" />
-      <workItem from="1568872795217" duration="3882000" />
+      <workItem from="1568872795217" duration="4384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161732000" />
+    <option name="totallyTimeSpent" value="162234000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,7 +480,7 @@
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36016098" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36016098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -502,7 +499,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32956153" />
       <window_info anchor="bottom" id="REST Client" order="12" weight="0.61103255" />
-      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.3281471" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.3281471" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="15" weight="0.44554454" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1097,8 +1094,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/routers/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="85" column="18" lean-forward="true" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+        <state relative-caret-position="250">
+          <caret line="137" column="37" selection-start-line="137" selection-start-column="37" selection-end-line="137" selection-end-column="37" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
