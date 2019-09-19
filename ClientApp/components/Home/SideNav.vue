@@ -58,7 +58,7 @@ export default {
             {
               text: "Statistics",
               icon: "el-icon-menu menu-icon",
-              path: "/order_statistics"
+              path: "/order-statistics"
             },
             {
               text: "Payment Transaction",

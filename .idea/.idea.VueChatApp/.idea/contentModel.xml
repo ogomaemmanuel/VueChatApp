@@ -536,7 +536,7 @@
           </e>
         </e>
         <e p="ChatTutorial.db" t="Include" />
-        <e p="dist" t="Include">
+        <e p="dist" t="ExcludeRecursive">
           <e p="0.js" t="Include" />
           <e p="0.js.map" t="Include" />
           <e p="1.js" t="Include" />
@@ -599,6 +599,10 @@
           <e p="35.js.map" t="Include" />
           <e p="36.js" t="Include" />
           <e p="36.js.map" t="Include" />
+          <e p="37.js" t="Include" />
+          <e p="37.js.map" t="Include" />
+          <e p="38.js" t="Include" />
+          <e p="38.js.map" t="Include" />
           <e p="4.js" t="Include" />
           <e p="4.js.map" t="Include" />
           <e p="5.js" t="Include" />
