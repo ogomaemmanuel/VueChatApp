@@ -56,7 +56,7 @@ namespace VueChatApp.Features.Chat.Controllers
             return new OkObjectResult(gifs);
         }
 
-        [HttpPost("start-video-call")]
+        [HttpPost("web-rtc-signal")]
         public async Task<IActionResult> StartCall(WebRtcMessage webRtcMessage)
         {
             await _chatService.StartCall(webRtcMessage);

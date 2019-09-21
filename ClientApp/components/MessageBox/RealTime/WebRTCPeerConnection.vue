@@ -1,188 +1,192 @@
 <template>
-    <div>
-        <figure>
-            <video ref="localVideo"></video>
-            <figcaption>
-                <p>Local Video</p>
-            </figcaption>
-        </figure>
-        <figure>
-            <video ref="remoteVideo"></video>
-            <figcaption>
-                <p>Remote Video</p>
-            </figcaption>
-        </figure>
+
+    <div class="modal is-active">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            <header class="modal-card-head">
+                <p class="modal-card-title">Modal title</p>
+            </header>
+            <section class="modal-card-body">
+                <div>
+                    <div class="video-wrapper">
+                        <figure>
+                            <video ref="localVideo"></video>
+                            <figcaption>
+                                <p>Local Video</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <video ref="remoteVideo"></video>
+                            <figcaption>
+                                <p>Remote Video</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="call-controls">
+                        <button :disabled="disableHangUpButton" @click="hangUpCall" class="btn btn-danger" ref="hangUpButton">Hang Up</button>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
+
+
 </template>
 
 <script>
+    //https://www.html5rocks.com/en/tutorials/webrtc/infrastructure/
+    // Alice creates an RTCPeerConnection object.
+    //     Alice creates an offer (an SDP session description) with the RTCPeerConnection createOffer() method.
+    //     Alice calls setLocalDescription() with his offer.
+    //     Alice stringifies the offer and uses a signaling mechanism to send it to Eve.
+    //
+    //     Eve calls setRemoteDescription() with Alice's offer, so that her RTCPeerConnection knows about Alice's setup.
+    //     Eve calls createAnswer(), and the success callback for this is passed a local session description: Eve's answer.
+    // Eve sets her answer as the local description by calling setLocalDescription().
+    //     Eve then uses the signaling mechanism to send her stringified answer back to Alice.
+    //     Alice sets Eve's answer as the remote session description using setRemoteDescription().
     export default {
         props: {
             onlineUser: {}
         },
+        computed: {
+            auth() {
+                return this.$store.getters.auth
+            },
+        },
+
         data() {
             return {
                 localVideo: null,
                 remoteVideo: null,
+                hangUpButton: null,
                 localStream: null,
-                localPeerConnection: null,
-                remotePeerConnection: null,
+                myPeerConnection: null,
+                disableHangUpButton:false,
+                // remotePeerConnection: null,
                 servers: null
             }
         },
         created() {
         },
         mounted() {
-            let vm = this
             this.localVideo = this.$refs.localVideo;
             this.remoteVideo = this.$refs.remoteVideo;
-            navigator.getUserMedia({
-                    audio: true,
-                    video: true
-                },
-                stream => {
-                    vm.localVideo.srcObject = stream;
-                    vm.localStream = stream;
-                    vm.localVideo.play();
-                    vm.localVideo.muted = true
-                    vm.localPeerConnection = new RTCPeerConnection(
-                        {
-                            iceServers: [     // Information about ICE servers - Use your own!
-                                {
-                                    urls: "stun:stun4.l.google.com:19302"
-                                }
-                            ]
-                        }
-                    );
-                    vm.localPeerConnection.onicecandidate = vm.handleICECandidateEvent;
-                    vm.localPeerConnection.addStream(vm.localStream)
-                    //vm.localPeerConnection.createOffer(vm.gotLocalDescription, (error) => {
-                    //   console.log(error)
-                    //})
-                    //vm.remotePeerConnection = new RTCPeerConnection(vm.servers)
-                    // vm.remotePeerConnection.onicecandidate = vm.gotRemoteIceCandidate
-                    // vm.remotePeerConnection.onaddstream = vm.gotRemoteStream
-                    //vm.remotePeerConnection.createAnswer(vm.gotRemoteDescription, (error) => {
-                    //    console.log(error)
-                    // })
-                },
-                error => {
-                    console.log(error)
-                }
-            )
+            this.hangUpButton = this.$refs.hangUpButton;
+            this.createOffer();
+            //https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Signaling_and_video_calling
+            //https://github.com/mdn/samples-server/blob/master/s/webrtc-from-chat/chatclient.js
+            // let vm = this;
+
+            // navigator.getUserMedia({
+            //         audio: true,
+            //         video: true
+            //     },
+            //     stream => {
+            //         vm.localVideo.srcObject = stream;
+            //         vm.localStream = stream;
+            //         vm.localVideo.play();
+            //         vm.localVideo.muted = true;
+            //         vm.localPeerConnection = new RTCPeerConnection(
+            //             {
+            //                 iceServers: [     // Information about ICE servers - Use your own!
+            //                     {
+            //                         urls: "stun:stun4.l.google.com:19302"
+            //                     }
+            //                 ]
+            //             }
+            //         );
+            //
+            //
+            //         vm.localPeerConnection.onicecandidate = vm.handleICECandidateEvent;
+            //         vm.localPeerConnection.ontrack = vm.handleTrackEvent;
+            //         vm.localPeerConnection.onnegotiationneeded = vm.handleNegotiationNeededEvent;
+            //         vm.localPeerConnection.onremovetrack = vm.handleRemoveTrackEvent;
+            //         vm.localPeerConnection.oniceconnectionstatechange = vm.handleICEConnectionStateChangeEvent;
+            //         vm.localPeerConnection.onicegatheringstatechange = vm.handleICEGatheringStateChangeEvent;
+            //         vm.localPeerConnection.onsignalingstatechange = vm.handleSignalingStateChangeEvent;
+            //     },
+            //     error => {
+            //         console.log(error)
+            //     }
+            // )
         },
         methods: {
-            gotLocalDescription(description) {
-                let vm = this
-                this.localPeerConnection.setLocalDescription(description)
-                this.remotePeerConnection.setRemoteDescription(description)
-                this.remotePeerConnection.createAnswer(vm.gotRemoteDescription, error => {
-                    console.log(error)
-                })
-            },
-            gotRemoteDescription(description) {
-                let vm = this
-                vm.remotePeerConnection.setLocalDescription(description)
-                vm.localPeerConnection.setRemoteDescription(description)
-            },
-            handleICECandidateEvent(event) {
+            createOffer() {
                 let vm = this;
-                if (event.candidate) {
-                    sendToServer({
-                        type: "candidate",
-                        to: vm.onlineUser.id,
-                        candidate: event.candidate
+                vm.myPeerConnection = new RTCPeerConnection(
+                    {
+                        iceServers: [
+                            {
+                                urls: "stun:stun4.l.google.com:19302"
+                            }
+                        ]
+                    }
+                );
+                vm.myPeerConnection.ontrack=vm.handleTrackEvent;
+
+                let mediaConstraints = {
+                    audio: true, // We want an audio track
+                    video: true // ...and we want a video track
+                };
+                navigator.mediaDevices.getUserMedia(mediaConstraints)
+                    .then(function (localStream) {
+                        vm.$refs.localVideo.srcObject = localStream;
+                        vm.$refs.localVideo.play();
+                        vm.localVideo.muted = true;
+                        localStream.getTracks().forEach(track => vm.myPeerConnection.addTrack(track, localStream));
                     });
-                }
-
-
-                //console.log("gotLocalIceCandidate",event)
-                if (event.candidate) {
-                    // Add candidate to the remote PeerConnection
-                    vm.remotePeerConnection.addIceCandidate(
-                        new RTCIceCandidate(event.candidate)
-                    )
-                    /// console.log(event.candidate.candidate)
-                }
-            },
-            gotRemoteIceCandidate(event) {
-                let vm = this
-                // console.log("gotRemoteIceCandidate",event)
-                if (event.candidate) {
-                    // Add candidate to the local PeerConnection
-                    vm.localPeerConnection.addIceCandidate(
-                        new RTCIceCandidate(event.candidate)
-                    )
-                    // console.log(event.candidate.candidate)
-                }
-            },
-            gotRemoteStream(event) {
-                console.log("gotRemote Stream", event);
-                let vm = this;
-                vm.remoteVideo.srcObject = event.stream;
-                vm.remoteVideo.play();
-            },
-            hangup() {
-                let vm = this
-                vm.localPeerConnection.close();
-                vm.remotePeerConnection.close();
-                vm.localPeerConnection = null;
-                vm.remotePeerConnection = null;
-            },
-            call() {
-                let vm = this;
-                this.localPeerConnection.createOffer().then(function (offer) {
-                    return localPeerConnection.setLocalDescription(offer);
-                })
-                    .then(function () {
-                        sendToServer({
+                vm.myPeerConnection.createOffer().then((desc) => {
+                    vm.myPeerConnection.setLocalDescription(desc).then(() => {
+                        vm.sendToServer({
                             to: vm.onlineUser.id,
-                            from: targetUsername,
-                            type: "offer",
-                            sdp: vm.localPeerConnection
-                        });
-                    })
+                            from: vm.auth.userDetails.id,
+                            sdp: desc,
+                            type: "offer"
+                        })
+                    });
+                });
+
             },
-            answer(msg) {
-                let vm = this;
-                let targetUsername = msg.name;
-                let desc = new RTCSessionDescription(msg.sdp);
-                this.localPeerConnection.setRemoteDescription(desc).then(function () {
-                    return navigator.mediaDevices.getUserMedia({
-                        audio: true,
-                        video: true
-                    });
+            handleTrackEvent(event) {
+                this.$refs.remoteVideo.srcObject = event.streams[0];
+                this.disableHangUpButton = false;
+            },
+            sendToServer(msg) {
+                axios.post("/api/chats/web-rtc-signal", msg).then(resp => {
+                  console.log("signaling done");
                 })
-                    .then(function (stream) {
-                        let localStream = stream;
-                        vm.localVideo.srcObject = localStream;
-
-                        localStream.getTracks().forEach(track => vm.localPeerConnection.addTrack(track, localStream));
-                    })
-                    .then(function () {
-                        return vm.localPeerConnection.createAnswer();
-                    })
-                    .then(function (answer) {
-                        return vm.localPeerConnection.setLocalDescription(answer);
-                    })
-                    .then(function () {
-                        let msg = {
-                            from: me,
-                            to: targetUsername,
-                            type: "answer",
-                            sdp: vm.localPeerConnection.localDescription
-                        };
-
-                        sendToServer(msg);
-                    });
-
             }
         }
     }
 </script>
 
-<style lang="scss">
-    figure {
-        display: inline-block
+<style lang="scss" scoped>
+    .video-wrapper {
+        width: 100%;
+        display: flex;
+        //justify-content: space-between;
+        figure {
+            flex-basis: 50%;
+            display: flex;
+            flex-direction: column;
+
+            video {
+                flex: 1;
+            }
+
+            figcaption {
+                align-self: center;
+            }
+        }
+
+    }
+
+    .call-controls {
+        display: flex;
+        justify-content: center;
     }
 </style>
+
+
+

@@ -1,5 +1,6 @@
 import Vue from "vue"
 import VueRouter from "vue-router"
+window.axios = require('axios');
 import BootstrapVue from "bootstrap-vue"
 import "bootstrap/dist/css/bootstrap.min.css"
 import 'material-icons/css/material-icons.min'
@@ -10,6 +11,7 @@ import ElementUI from 'element-ui'
 import locale from 'element-ui/lib/locale/lang/en'
 import 'element-ui/lib/theme-chalk/index.css'
 import "./config/axios_interceptor"
+import "bulma/css/bulma.min.css"
 Vue.use(ElementUI,{locale})
 Vue.use(VueRouter)
 Vue.use(BootstrapVue)

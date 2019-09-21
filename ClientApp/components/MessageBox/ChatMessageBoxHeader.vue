@@ -9,11 +9,22 @@
         <i class="fa fa-times" @click="removeUserFromChatlist(onlineUser.id)" />
       </div>
     </div>
+    <VideoCallModal :online-user="onlineUser" v-if="startVideoCall"></VideoCallModal>
   </div>
 </template>
 
 <script>
+    import VideoCallModal from "./RealTime/WebRTCPeerConnection"
 export default {
+    components:{
+        VideoCallModal
+    },
+    data(){
+        return{
+            startVideoCall:false
+        }
+    },
+    
     props: {
         onlineUser: {
             type: Object,
@@ -29,7 +40,7 @@ export default {
             this.$store.dispatch("removeUserFromChatlist", userId)
         },
         startRealTimeConversation (){
-            this.$router.push("/web-rtc")
+            this.startVideoCall=true;
         },
         toggleBody () {
             this.$emit("update:showBody", !this.showBody)
