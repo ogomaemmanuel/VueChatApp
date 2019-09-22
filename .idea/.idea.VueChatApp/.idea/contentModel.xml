@@ -64,6 +64,7 @@
             <e p="MessageBox.vue" t="Include" />
             <e p="MessageBoxFooter.vue" t="Include" />
             <e p="RealTime" t="Include">
+              <e p="AnswerCall.vue" t="Include" />
               <e p="CallControls.vue" t="Include" />
               <e p="WebRTCPeerConnection.vue" t="Include" />
             </e>
@@ -263,7 +264,46 @@
         <e p="20190809154623_Init.Designer.cs" t="Include" />
         <e p="ChatDbContextModelSnapshot.cs" t="Include" />
       </e>
-      <e p="node_modules" t="ExcludeRecursive" />
+      <e p="node_modules" t="ExcludeRecursive">
+        <e p="@aspnet\signalr" t="IncludeRecursive" />
+        <e p="aspnet-webpack" t="IncludeRecursive" />
+        <e p="axios" t="IncludeRecursive" />
+        <e p="babel-eslint" t="IncludeRecursive" />
+        <e p="bootstrap" t="IncludeRecursive" />
+        <e p="bootstrap-vue" t="IncludeRecursive" />
+        <e p="bulma" t="IncludeRecursive" />
+        <e p="css-loader" t="IncludeRecursive" />
+        <e p="element-ui" t="IncludeRecursive" />
+        <e p="emoji-mart-vue" t="IncludeRecursive" />
+        <e p="eslint" t="IncludeRecursive" />
+        <e p="eslint-config-prettier" t="IncludeRecursive" />
+        <e p="eslint-friendly-formatter" t="IncludeRecursive" />
+        <e p="eslint-plugin-prettier" t="IncludeRecursive" />
+        <e p="eslint-plugin-vue" t="IncludeRecursive" />
+        <e p="event-source-polyfill" t="IncludeRecursive" />
+        <e p="extract-text-webpack-plugin" t="IncludeRecursive" />
+        <e p="ffmpeg" t="IncludeRecursive" />
+        <e p="file-loader" t="IncludeRecursive" />
+        <e p="font-awesome" t="IncludeRecursive" />
+        <e p="isomorphic-fetch" t="IncludeRecursive" />
+        <e p="jquery" t="IncludeRecursive" />
+        <e p="lodash" t="IncludeRecursive" />
+        <e p="material-icons" t="IncludeRecursive" />
+        <e p="node-sass" t="IncludeRecursive" />
+        <e p="prettier" t="IncludeRecursive" />
+        <e p="sass-loader" t="IncludeRecursive" />
+        <e p="scss-loader" t="IncludeRecursive" />
+        <e p="style-loader" t="IncludeRecursive" />
+        <e p="uglifyjs-webpack-plugin" t="IncludeRecursive" />
+        <e p="url-loader" t="IncludeRecursive" />
+        <e p="vue" t="IncludeRecursive" />
+        <e p="vue-loader" t="IncludeRecursive" />
+        <e p="vue-router" t="IncludeRecursive" />
+        <e p="vue-template-compiler" t="IncludeRecursive" />
+        <e p="vuex" t="IncludeRecursive" />
+        <e p="webpack" t="IncludeRecursive" />
+        <e p="webpack-hot-middleware" t="IncludeRecursive" />
+      </e>
       <e p="npm-shrinkwrap.json" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">

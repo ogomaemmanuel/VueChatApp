@@ -25,6 +25,7 @@ import ChatFlyOutHeader from "./ChatFlyOutHeader.vue"
 import ChatUserCard from "./ChatUserCard.vue"
 import * as SignalR from "@aspnet/signalr"
 import {Notification} from "element-ui"
+import {EventBus} from "../../components/event-bus"
 export default {
   components: {
     ChatFlyOutSearchInput,
@@ -53,10 +54,16 @@ export default {
     vm.connection = new SignalR.HubConnectionBuilder()
       .withUrl(`/signalr/notification-hub${tokenValue}`)
       .configureLogging(SignalR.LogLevel.Information)
-      .build()
+      .build();
     vm.connection.start().then(() => {
       vm.connection.invoke("RegisterUser", vm.auth.userDetails)
-    })
+    });
+    
+    vm.connection.on("WebRtcSignal",(msg)=>{
+
+      EventBus.$emit("webRtcSignalReceived",msg);
+      
+    });
     vm.connection.on("UpdatedUserList", function (users) {
       vm.users = users.filter(user => user.id !== vm.auth.userDetails.id)
     })
