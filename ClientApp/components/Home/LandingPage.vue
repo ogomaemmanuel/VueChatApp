@@ -36,7 +36,7 @@
             ChatFlyOut,
             MessageBox,
             AnswerCallModel,
-            
+
         },
         data() {
             return {
@@ -56,9 +56,12 @@
             let vm = this;
             EventBus.$on("sideNavClosed", function () {
                 vm.homeWidth["margin-left"] = "0px";
-            }); 
+            });
             EventBus.$on("webRtcSignalReceived", function (msg) {
-                vm.webRtcMessage= msg;
+                if (msg.type == "offer") {
+                    vm.webRtcMessage = msg;
+                }
+
             });
             EventBus.$on("showSideNav", function () {
                 vm.homeWidth["margin-left"] = "255px";

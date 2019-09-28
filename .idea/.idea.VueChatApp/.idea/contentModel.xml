@@ -303,6 +303,7 @@
         <e p="vuex" t="IncludeRecursive" />
         <e p="webpack" t="IncludeRecursive" />
         <e p="webpack-hot-middleware" t="IncludeRecursive" />
+        <e p="webrtc-adapter" t="IncludeRecursive" />
       </e>
       <e p="npm-shrinkwrap.json" t="Include" />
       <e p="obj" t="ExcludeRecursive">
@@ -333,10 +334,41 @@
         <e p="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" t="Include" />
         <e p="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" t="Include" />
         <e p="Microsoft.Win32.SystemEvents.dll" t="Include" />
+        <e p="MySqlConnector.dll" t="Include" />
         <e p="npm-shrinkwrap.json" t="Include" />
         <e p="NuGet.Frameworks.dll" t="Include" />
         <e p="package.json" t="Include" />
+        <e p="Pomelo.EntityFrameworkCore.MySql.dll" t="Include" />
+        <e p="Pomelo.JsonObject.dll" t="Include" />
         <e p="QRCoder.dll" t="Include" />
+        <e p="release" t="Include">
+          <e p="appsettings.Development.json" t="Include" />
+          <e p="appsettings.json" t="Include" />
+          <e p="npm-shrinkwrap.json" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="release" t="Include">
+            <e p="appsettings.Development.json" t="Include" />
+            <e p="appsettings.json" t="Include" />
+            <e p="npm-shrinkwrap.json" t="Include" />
+            <e p="package.json" t="Include" />
+            <e p="VueChatApp.deps.json" t="Include" />
+            <e p="VueChatApp.runtimeconfig.json" t="Include" />
+            <e p="web.config" t="Include" />
+            <e p="wwwroot" t="Include">
+              <e p="dist" t="Include">
+                <e p="vendor-manifest.json" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="VueChatApp.deps.json" t="Include" />
+          <e p="VueChatApp.runtimeconfig.json" t="Include" />
+          <e p="web.config" t="Include" />
+          <e p="wwwroot" t="Include">
+            <e p="dist" t="Include">
+              <e p="vendor-manifest.json" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="runtimes" t="Include">
           <e p="unix" t="Include">
             <e p="lib" t="Include">
@@ -424,8 +456,32 @@
             <e p="29.js.map" t="Include" />
             <e p="3.js" t="Include" />
             <e p="3.js.map" t="Include" />
+            <e p="30.js" t="Include" />
+            <e p="30.js.map" t="Include" />
+            <e p="31.js" t="Include" />
+            <e p="31.js.map" t="Include" />
+            <e p="32.js" t="Include" />
+            <e p="32.js.map" t="Include" />
+            <e p="33.js" t="Include" />
+            <e p="33.js.map" t="Include" />
+            <e p="34.js" t="Include" />
+            <e p="34.js.map" t="Include" />
+            <e p="35.js" t="Include" />
+            <e p="35.js.map" t="Include" />
+            <e p="36.js" t="Include" />
+            <e p="36.js.map" t="Include" />
+            <e p="37.js" t="Include" />
+            <e p="37.js.map" t="Include" />
+            <e p="38.js" t="Include" />
+            <e p="38.js.map" t="Include" />
+            <e p="39.js" t="Include" />
+            <e p="39.js.map" t="Include" />
             <e p="4.js" t="Include" />
             <e p="4.js.map" t="Include" />
+            <e p="40.js" t="Include" />
+            <e p="40.js.map" t="Include" />
+            <e p="41.js" t="Include" />
+            <e p="41.js.map" t="Include" />
             <e p="5.js" t="Include" />
             <e p="5.js.map" t="Include" />
             <e p="6.js" t="Include" />

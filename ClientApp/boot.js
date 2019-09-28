@@ -1,6 +1,7 @@
 import Vue from "vue"
 import VueRouter from "vue-router"
 window.axios = require('axios');
+const adapter = require("webrtc-adapter");
 import BootstrapVue from "bootstrap-vue"
 import "bootstrap/dist/css/bootstrap.min.css"
 import 'material-icons/css/material-icons.min'

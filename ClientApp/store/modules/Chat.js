@@ -3,13 +3,17 @@ const state = {
   usersToChatWith: [],
   messageSent: false,
   chatMessages: [],
-  gifs:null
+  gifs:null,
+  userOnCall:false,
 }
 const mutations = {
   ADD_USER_TO_CHAT_LIST (state, newUser) {
     if (!state.usersToChatWith.find(user => user.id == newUser.id)) {
       state.usersToChatWith.push(newUser)
     }
+  },
+  UPDATE_USER_ON_CALL(state,newState){
+    state.userOnCall=newState;
   },
   REMOVE_USER_FROM_CHAT_LIST (state, userId) {
     state.usersToChatWith = state.usersToChatWith.filter(
@@ -30,6 +34,7 @@ const getters = {
   usersToChatWith: state => state.usersToChatWith,
   chatMessages: state => state.chatMessages,
   gifs:state=>state.gifs,
+  userOnCall:state=>state.userOnCall
 }
 const actions = {
   addUserToChatlist ({ commit }, newUser) {
