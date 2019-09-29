@@ -1,5 +1,4 @@
 <template>
-
     <div class="modal is-active">
         <div class="modal-background"></div>
         <div class="modal-card">
@@ -78,20 +77,6 @@
             this.localVideo = this.$refs.localVideo;
             this.remoteVideo = this.$refs.remoteVideo;
             this.hangUpButton = this.$refs.hangUpButton;
-            vm.myPeerConnection = new RTCPeerConnection(
-                {
-                    iceServers: [
-                        {
-                            urls: "stun:stun4.l.google.com:19302"
-                        }
-                    ]
-                }
-            );
-          //  This is called when you call setRemoteDescription with the SDP info or your remote peer
-            vm.myPeerConnection.ontrack=vm.handleTrackEvent;
-            vm.myPeerConnection.onicecandidate =vm.gotIceCandidate;
-            
-            
             EventBus.$on("webRtcSignalReceived", (msg)=>{
                 if (msg.type=="answer") {
                     vm.handleAnswer(msg);
@@ -117,24 +102,40 @@
                     .then(function (localStream) {
                         vm.$refs.localVideo.srcObject = localStream;
                         vm.localStream=localStream;
+
+
+                        vm.myPeerConnection = new RTCPeerConnection(
+                            {
+                                iceServers: [
+                                    {
+                                        urls: "stun:stun4.l.google.com:19302"
+                                    }
+                                ]
+                            }
+                        );
+                        //  This is called when you call setRemoteDescription with the SDP info or your remote peer
+                        vm.myPeerConnection.ontrack=vm.handleTrackEvent;
+                        vm.myPeerConnection.onicecandidate =vm.gotIceCandidate;
                         localStream.getTracks().forEach(track => vm.myPeerConnection.addTrack(track, localStream));
-                    });
-               vm.myPeerConnection.createOffer({
-                    offerToReceiveAudio: true,
-                    offerToReceiveVideo: true
-                }).then((desc) => {
-                    vm.myPeerConnection.setLocalDescription(desc).then(() => {
-                      return  vm.sendToServer({
-                            to: vm.onlineUser.id,
-                            from: vm.auth.userDetails.id,
-                            sdp: desc,
-                            type: "offer"
+
+                        vm.myPeerConnection.createOffer({
+                            offerToReceiveAudio: true,
+                            offerToReceiveVideo: true
+                        }).then((desc) => {
+                            vm.myPeerConnection.setLocalDescription(desc).then(() => {
+                                return  vm.sendToServer({
+                                    to: vm.onlineUser.id,
+                                    from: vm.auth.userDetails.id,
+                                    sdp: desc,
+                                    type: "offer"
+                                });
+
+                            }).then(()=>{
+                                vm.$store.commit("UPDATE_USER_ON_CALL",true);
+                            });
                         });
-                       
-                    }).then(()=>{
-                        vm.$store.commit("UPDATE_USER_ON_CALL",true);
                     });
-                });
+              
 
             },
             async handleAnswer(msg){

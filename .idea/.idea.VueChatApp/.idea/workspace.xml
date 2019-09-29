@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b276efb9-93c9-40c5-84a9-bffe2d5128da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VueChatApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/boot.js" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/boot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/components/ChatListFlyOut/ChatFlyOut.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/components/Home/LandingPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/components/Home/LandingPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/components/MessageBox/RealTime/AnswerCall.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/components/MessageBox/RealTime/AnswerCall.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientApp/components/MessageBox/RealTime/WebRTCPeerConnection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/components/MessageBox/RealTime/WebRTCPeerConnection.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/store/modules/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/store/modules/Chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hubs/INotificationClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hubs/INotificationClient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/npm-shrinkwrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/npm-shrinkwrap.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/wwwroot/dist/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClientApp/components/MessageBox/RealTime/AnswerCall.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="91" column="39" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="39" />
+            <state relative-caret-position="139">
+              <caret line="129" column="58" selection-start-line="129" selection-start-column="46" selection-end-line="129" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -138,13 +126,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ClientApp/components/MessageBox/RealTime/WebRTCPeerConnection.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="143" column="16" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+            <state relative-caret-position="107">
+              <caret line="125" column="57" lean-forward="true" selection-start-line="125" selection-start-column="57" selection-end-line="125" selection-end-column="57" />
               <folding>
-                <marker date="1569669019858" expanded="true" signature="1334:2170" ph="..." />
+                <element signature="e#4944#5056#0" />
+                <marker date="1569766154397" expanded="true" signature="1333:2169" ph="..." />
               </folding>
             </state>
           </provider>
@@ -290,8 +279,8 @@
         <option value="$PROJECT_DIR$/ClientApp/boot.js" />
         <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/Startup.cs" />
-        <option value="$PROJECT_DIR$/ClientApp/components/MessageBox/RealTime/WebRTCPeerConnection.vue" />
         <option value="$PROJECT_DIR$/ClientApp/components/MessageBox/RealTime/AnswerCall.vue" />
+        <option value="$PROJECT_DIR$/ClientApp/components/MessageBox/RealTime/WebRTCPeerConnection.vue" />
       </list>
     </option>
   </component>
@@ -318,6 +307,32 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="components" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="components" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MessageBox" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="VueChatApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="components" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MessageBox" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="RealTime" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -467,12 +482,12 @@
       <workItem from="1569321813721" duration="18444000" />
       <workItem from="1569575449568" duration="2482000" />
       <workItem from="1569611780183" duration="6149000" />
-      <workItem from="1569664892337" duration="3718000" />
+      <workItem from="1569664892337" duration="8930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230207000" />
+    <option name="totallyTimeSpent" value="235419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1068,20 +1083,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/components/MessageBox/RealTime/WebRTCPeerConnection.vue">
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/MessageBox/RealTime/AnswerCall.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="143" column="16" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
-          <folding>
-            <marker date="1569669019858" expanded="true" signature="1334:2170" ph="..." />
-          </folding>
+        <state relative-caret-position="139">
+          <caret line="129" column="58" selection-start-line="129" selection-start-column="46" selection-end-line="129" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/components/MessageBox/RealTime/AnswerCall.vue">
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/MessageBox/RealTime/WebRTCPeerConnection.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="91" column="39" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="39" />
+        <state relative-caret-position="107">
+          <caret line="125" column="57" lean-forward="true" selection-start-line="125" selection-start-column="57" selection-end-line="125" selection-end-column="57" />
+          <folding>
+            <element signature="e#4944#5056#0" />
+            <marker date="1569766154397" expanded="true" signature="1333:2169" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
