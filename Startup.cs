@@ -55,6 +55,7 @@ namespace VueChatApp
                     mySqlOptions =>
                     {
                         mySqlOptions.UnicodeCharSet(CharSet.Utf8mb4);
+                        mySqlOptions.EnableRetryOnFailure(3, TimeSpan.FromSeconds(30), new List<int>());
                         mySqlOptions.ServerVersion(new Version(5, 7, 17),
                             ServerType.MariaDb); // replace with your Server Version and Type
                     }

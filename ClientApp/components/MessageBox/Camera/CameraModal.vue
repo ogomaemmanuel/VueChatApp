@@ -1,9 +1,15 @@
 <template>
 <div class="camera-modal">
-    <i  @click="dialogVisible = true" class="fa fa-camera fa-2x"></i>
-    <b-modal v-bind:hide-footer="true" width="565" title="Camera" v-model="dialogVisible">
-        <component :online-user="onlineUser" @takePhoto="showPhotoComponent" @takeVideo="showVideoComponent" v-bind:is="currentTabComponent"></component>
-    </b-modal>
+    <i @click="dialogVisible = true" class="fa fa-camera fa-2x"></i>
+
+    <div class="modal" :class="{'is-active':dialogVisible}">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+                <component :online-user="onlineUser" @takePhoto="showPhotoComponent" @takeVideo="showVideoComponent" v-bind:is="currentTabComponent"></component>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+   
 </div>
 </template>
 <script>
