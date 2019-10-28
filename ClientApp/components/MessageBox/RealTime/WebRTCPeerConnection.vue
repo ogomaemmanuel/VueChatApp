@@ -148,7 +148,7 @@
             handleTrackEvent(event) {
                 console.log("handling remote streams");
                 this.$refs.remoteVideo.srcObject = event.streams[0];
-                this.$refs.remoteVideo.play();
+                //this.$refs.remoteVideo.play();
                 //this.disableHangUpButton = false;
             },
             async  handleIceCandidate(msg){
