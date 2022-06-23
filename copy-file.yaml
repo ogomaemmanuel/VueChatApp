@@ -1,0 +1,8 @@
+- name: File Copy
+  hosts: all
+  remote_user: opc
+  tasks:
+    - name: Copy file  to remote  machine
+      copy:
+        src: /home/ogoma/ansible-tutorial.txt
+        dest: ~/ansible-tutorial-copy1.txt
