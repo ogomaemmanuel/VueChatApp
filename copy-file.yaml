@@ -4,5 +4,5 @@
   tasks:
     - name: Copy file  to remote  machine
       copy:
-        src: /home/ogoma/ansible-tutorial.txt
+        content: "This just some text, to be written to a file"
         dest: ~/ansible-tutorial-copy1.txt
